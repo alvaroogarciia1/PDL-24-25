@@ -1,0 +1,27 @@
+Tabla Programa Principal # 1:
+* LEXEMA : 'texto'
+  ATRIBUTOS :
+    + tipo : 'string'
+    + despl : '0'
+* LEXEMA : 'print'
+  ATRIBUTOS :
+    + tipo : 'function'
+    + numParam : 1
+    + TipoParam1 : 'string'
+    + TipoRetorno : 'void'
+    + EtiqFuncion : 'Etiq_print'
+* LEXEMA : 'pideTexto'
+  ATRIBUTOS :
+    + tipo : 'function'
+    + numParam : 0
+    + TipoRetorno : 'void'
+    + EtiqFuncion : 'Etiq_pideTexto'
+
+Tabla Funcion print # 2:
+* LEXEMA : 'msg'
+  ATRIBUTOS :
+    + tipo : 'string'
+    + despl : '0'
+
+Tabla Funcion pideTexto # 3:
+

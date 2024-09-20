@@ -1,0 +1,19 @@
+Tabla Programa Principal # 1:
+* LEXEMA : 'a'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + desplazamiento : '0'
+* LEXEMA : 'f'
+  ATRIBUTOS :
+    + tipo : 'funcion'
+    + NumParametros : '0'
+    + tipoParametro0 : 'void'
+    + tipoRetorno : 'entero'
+    + etiquetaFucnion : 'Etiq_f'
+
+Tabla Funcion f # 2:
+* LEXEMA : 'b'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + desplazamiento : '0'
+

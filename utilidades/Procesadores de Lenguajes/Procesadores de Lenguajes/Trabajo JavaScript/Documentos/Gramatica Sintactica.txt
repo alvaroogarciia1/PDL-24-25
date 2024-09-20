@@ -1,0 +1,102 @@
+Terminales = { id , entero, cadena, function, boolean, true, false, (, ), +, -, ==, !=, &&, =, |=, let, int, string, print, input, ;, ,, return, if, for, {, }, eof }
+
+No terminales = {P, B, T, S, D, X, C, L, Q, F, H, A, K, E, 1, R, 2, G, U, 3, J, V, Z, I M}
+
+Axioma = P
+
+Sabemos que es adecuada ya que es una gramática LL(1), no tiene recursividad por
+la i zquierda en ninguno de sus estados, cumple l a condición LL, está factorizada y no es
+ambigua en ningún caso.
+
+(1)P -> BP | FP | <eof> | λ
+(2)B -> let T id; | if (E) S | S | for(I;E;I){C} (declaraciones variables y sentencias)
+(3)T -> int | string | boolean
+(4)S -> id D; | print(E); | input(id); | return X;
+(5)D -> ME | (L)
+(6)X -> E | λ
+(7)C -> BC | λ
+(8)L -> EQ | λ
+(9)Q -> ,EQ | λ
+(10)F -> function id H (A) {C}
+(11)H -> T | λ
+(12)A -> T id K | λ
+(13)K -> ,T id K | λ
+
+(14)E -> R1
+(15)1 -> && R1 | λ
+(16)R -> U2
+(17)2 -> GU2 | λ
+(18)G -> == | != 
+(19)U -> V3
+(20)3 -> JV3 | λ
+(21)J -> + | -
+(22)V -> id Z | (E) | entero | cadena | true | false
+(23)Z -> (L) | λ
+
+E -> E && R | R
+R -> R == U | R != U | U
+U -> U + V | U - V | V
+V -> id | (E) | id(L) | entero | cadena | true | false
+
+(24)I -> id M E | λ
+(25)M -> = | |= 
+
+Producciones = {
+	(1)P -> B P 
+	(2)P -> F P 
+	(3)P -> eof 
+	(4)P -> lambda
+	(5)B -> let T id ; 
+	(6)B -> if ( E ) S 
+	(7)B -> S 
+	(8)B -> for ( I ; E ; I ) { C }
+	(9)T -> int 
+	(10)T -> string 
+	(11)T -> boolean
+	(12)S -> id D ;
+	(13)S -> print ( E ) ; 
+	(14)S -> input ( id ) ; 
+	(15)S -> return X ;
+	(16)D -> M E  
+	(17)D -> ( L ) 
+	(18)X -> E 
+	(19)X -> lambda
+	(20)C -> B C 
+	(21)C -> lambda
+	(22)L -> E Q 
+	(23)L -> lambda
+	(24)Q -> , E Q 
+	(25)Q -> lambda
+	(26)F -> function id H ( A ) { C }
+	(27)H -> T 
+	(28)H -> lambda
+	(29)A -> T id K 
+	(30)A -> lambda
+	(31)K -> , T id K 
+	(32)K -> lambda
+	(33)E -> R 1
+	(34)1 -> && R 1 
+	(35)1 -> lambda
+	(36)R -> U 2
+	(37)2 -> G U 2 
+	(38)2 -> lambda
+	(39)G -> == 
+	(40)G -> != 
+	(41)U -> V 3
+	(42)3 -> J V 3 
+	(43)3 -> lambda
+	(44)J -> + 
+	(45)J -> -
+	(46)V -> id Z
+	(47)V -> ( E ) 
+	(48)V -> entero 
+	(49)V -> cadena 
+	(50)V -> true 
+	(51)V -> false
+	(52)Z -> ( L )
+	(53)Z -> lambda
+	(54)I -> id M E 
+	(55)I -> lambda
+	(56)M -> = 
+	(57)M -> |= 
+}

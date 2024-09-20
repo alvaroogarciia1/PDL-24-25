@@ -1,0 +1,57 @@
+<LET, >
+<INT, >
+<ID , 0 >
+<PYC, >
+<LET, >
+<INT, >
+<ID , 1 >
+<PYC, >
+<LET, >
+<BOOLEAN, >
+<ID , 2 >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 1 >
+<PARENTC, >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<ID , 1 >
+<PARENTC, >
+<PYC, >
+<ID , 0 >
+<IGUIGU, >
+<ID , 1 >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<ID , 1 >
+<ENTERO , 1 >
+<PARENTC, >
+<PYC, >
+<ID , 2 >
+<IGUAL, >
+<ID , 2 >
+<ID , 2 >
+<PYC, >
+<IF, >
+<PARENTA, >
+<ID , 2 >
+<PARENTC, >
+<ID , 1 >
+<IGUAL, >
+<ID , 0 >
+<ENTERO , 6 >
+<SUMA, >
+<ID , 1 >
+<PARENTA, >
+<ENTERO , 1 >
+<RESTA, >
+<ENTERO , 2 >
+<RESTA, >
+<ID , 3 >
+<PARENTC, >
+<ENTERO , 8 >
+<PYC, >
+<EOF, >

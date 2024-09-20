@@ -1,0 +1,21 @@
+Sentencias: Sentencia repetitiva (for)				V
+Operadores especiales: Asignación con o lógico (|=)		V
+Técnicas de Análisis Sintáctico: Ascendente LR
+Comentarios: Comentario de línea (//)				V
+Cadenas: Con comillas dobles (" ")				V
+
+La estructura general de un programa compuesto por funciones, declaraciones y sentencias.
+Definición de funciones.					V
+Tipos enteros, lógicos y cadenas.				V
+Variables y su declaración.					V
+Constantes enteras y cadenas de caracteres.			V
+Sentencias: asignación, condicional simple, llamada a funciones y retorno.
+Expresiones.
+Comentarios.
+Operaciones de entrada/salida por terminal.
+Operadores [al menos hay que implementar uno de cada tipo]:
+Aritméticos: +, -, *, /, % [al menos uno]
+Relacionales: ==, !=, <, >, <=, >= [al menos uno]
+Lógicos: &&, ||, ! [al menos uno]
+
+

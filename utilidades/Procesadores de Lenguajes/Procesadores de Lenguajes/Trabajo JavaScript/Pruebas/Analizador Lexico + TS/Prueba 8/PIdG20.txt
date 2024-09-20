@@ -1,0 +1,27 @@
+let boolean booleano;
+function bisiesto boolean (int a)	
+{			
+	return (a + 4 != 0 && a - 100 == 0 && a + 400 == 0);	
+} 
+function dias int (int m, int a)
+{
+	let int dd;
+	print ("di cuantos_dias tiene el mes ");
+	print (m);
+	input(dd);
+	if (bisiesto(a)) dd = dd - 1;
+	return dd;
+}
+function esFechaCorrecta boolean (int d, int m, int a)	
+{
+	return (d == dias (m, a));
+}
+function demo ()	
+{
+
+	if (esFechaCorrecta(25, 10, 2021)) print ("ok");
+	
+}
+demo();
+let string a_1_b_2;
+

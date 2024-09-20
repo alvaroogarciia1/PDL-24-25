@@ -1,0 +1,22 @@
+Tabla de Simbolos Principal #1:
+* LEXEMA: 'a'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 0
+* LEXEMA: 'b'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 1
+* LEXEMA: 'fi'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 0
+     + TipoRetorno: 'int'
+     + EtiqFuncion: 'Et1_fi'
+* LEXEMA: 'c'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 65
+
+Tabla de Simbolos de la Funcion fi #2:
+

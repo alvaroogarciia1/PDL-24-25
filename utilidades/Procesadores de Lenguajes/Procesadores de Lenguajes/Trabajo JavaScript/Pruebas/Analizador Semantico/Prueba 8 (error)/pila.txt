@@ -1,0 +1,726 @@
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+B                      |
+P                      |
+{1}                    |
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+let                    |
+{5.1}                  |
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |
+P                      |
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.1}                  |
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+int                    |
+{9}                    |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |     T          Ret:  Tipo:     
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{9}                    |
+id                     |
+{5.2}                  |
+pyc                    |     int        Ret:  Tipo:     
+{5.3}                  |     T          Ret:  Tipo:     
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |     T          Ret:  Tipo: int 
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.2}                  |
+pyc                    |     id         Ret:  Tipo: 0   
+{5.3}                  |     T          Ret:  Tipo: int 
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+pyc                    |
+{5.3}                  |
+P                      |
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.3}                  |
+P                      |     pyc        Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+P                      |
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+B                      |
+P                      |
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+let                    |
+{5.1}                  |
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.1}                  |
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+int                    |
+{9}                    |
+id                     |
+{5.2}                  |
+pyc                    |     T          Ret:  Tipo:     
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{9}                    |
+id                     |
+{5.2}                  |     int        Ret:  Tipo:     
+pyc                    |     T          Ret:  Tipo:     
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+id                     |
+{5.2}                  |
+pyc                    |     T          Ret:  Tipo: int 
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.2}                  |     id         Ret:  Tipo: 1   
+pyc                    |     T          Ret:  Tipo: int 
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+pyc                    |
+{5.3}                  |
+P                      |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.3}                  |     pyc        Ret:  Tipo:     
+P                      |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+P                      |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+B                      |
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+S                      |
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+id                     |
+D                      |
+pyc                    |
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+D                      |
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+M                      |
+E                      |
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+igual                  |
+{56}                   |
+E                      |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{56}                   |     igual      Ret:  Tipo:     
+E                      |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+E                      |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+R                      |
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+U                      |
+2                      |
+{36}                   |     R          Ret:  Tipo:     
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+V                      |
+3                      |
+{41}                   |
+2                      |     U          Ret:  Tipo:     
+{36}                   |     R          Ret:  Tipo:     
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+cadena                 |
+{49}                   |
+3                      |
+{41}                   |     V          Ret:  Tipo:     
+2                      |     U          Ret:  Tipo:     
+{36}                   |     R          Ret:  Tipo:     
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{49}                   |
+3                      |     cadena     Ret:  Tipo:     
+{41}                   |     V          Ret:  Tipo:     
+2                      |     U          Ret:  Tipo:     
+{36}                   |     R          Ret:  Tipo:     
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+3                      |
+{41}                   |     V          Ret:  Tipo: string
+2                      |     U          Ret:  Tipo:     
+{36}                   |     R          Ret:  Tipo:     
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{43}                   |     3          Ret:  Tipo:     
+{41}                   |     V          Ret:  Tipo: string
+2                      |     U          Ret:  Tipo:     
+{36}                   |     R          Ret:  Tipo:     
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     3          Ret:       Tipo: void
+{41}                   |     V          Ret:  Tipo: string
+2                      |     U          Ret:  Tipo:     
+{36}                   |     R          Ret:  Tipo:     
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+2                      |     U          Ret:  Tipo: string
+{36}                   |     R          Ret:  Tipo:     
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     2          Ret:       Tipo:     
+{38}                   |     U          Ret:  Tipo: string
+{36}                   |     R          Ret:  Tipo:     
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     2          Ret:       Tipo: void
+                       |     U          Ret:       Tipo: string
+{36}                   |     R          Ret:  Tipo:     
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     R          Ret:       Tipo: string
+1                      |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     1          Ret:       Tipo:     
+                       |     R          Ret:       Tipo: string
+{35}                   |     E          Ret:  Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     1          Ret:       Tipo: void
+                       |     R          Ret:       Tipo: string
+                       |     E          Ret:       Tipo:     
+{33}                   |     M          Ret:  Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     E          Ret:       Tipo: string
+                       |     M          Ret:       Tipo:     
+{16}                   |     D          Ret:  Tipo:     
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     D          Ret:       Tipo: string
+pyc                    |     id         Ret:  Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     pyc        Ret:       Tipo:     
+                       |     D          Ret:       Tipo: string
+                       |     id         Ret:       Tipo: 0   
+{12}                   |     S          Ret:  Tipo:     
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     S          Ret: void  Tipo: error
+{7}                    |     B          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     B          Ret: void  Tipo: error
+P                      |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     P          Ret:       Tipo:     
+eof                    |     B          Ret: void Tipo: error
+{3}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     eof        Ret:       Tipo:     
+                       |     P          Ret:       Tipo:     
+                       |     B          Ret: void  Tipo: error
+{3}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     P          Ret:       Tipo:     
+                       |     B          Ret: void  Tipo: error
+                       |     P          Ret:       Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     P          Ret:       Tipo:     
+                       |     B          Ret: void  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     P          Ret:       Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------

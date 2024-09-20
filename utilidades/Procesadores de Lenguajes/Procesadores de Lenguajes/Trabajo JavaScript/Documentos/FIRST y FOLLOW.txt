@@ -1,0 +1,51 @@
+FIRST(P)={let, if, id, print, input, return, for, function, eof, λ}
+FIRST(B)={let, if, id, print, input, return, for}
+FIRST(T)={int, string, boolean}
+FIRST(S)={id, print, input, return}
+FIRST(D)={=, |=, (}
+FIRST(X)={id, (, entero, cadena, true, false, λ}
+FIRST(C)={let, if, id, print, input, return, for, λ}
+FIRST(L)={id, (, entero, cadena, true, false, λ}
+FIRST(Q)={,, λ}
+FIRST(F)={function}
+FIRST(H)={int, string, boolean, λ}
+FIRST(A)={int, string, boolean, λ}
+FIRST(K)={,, λ}
+FIRST(E)={id, (, entero, cadena, true, false}
+FIRST(1)={&&, λ}
+FIRST(R)={id, (, entero, cadena, true, false}
+FIRST(2)={==, !=, λ} 
+FIRST(G)={==, !=}
+FIRST(U)={id, (, entero, cadena, true, false}
+FIRST(3)={+, -, λ}
+FIRST(J)={+, -}
+FIRST(V)={id, (, entero, cadena, true, false}
+FIRST(Z)={(, λ}
+FIRST(I)={id, λ}
+FIRST(M)={=, |=}
+
+FOLLOW(P)={$}
+FOLLOW(B)={let, if, id, print, input, return, for, function, eof, $, }}
+FOLLOW(T)={id, (}
+FOLLOW(S)={let, if, id, print, input, return, for, function, eof, $, }}
+FOLLOW(D)={let, if, id, print, input, return, for, function, eof, $, }}
+FOLLOW(X)={;}
+FOLLOW(C)={}}
+FOLLOW(L)={)}
+FOLLOW(Q)={)}
+FOLLOW(F)={let, if, id, print, input, return, for, function, eof, $}
+FOLLOW(H)={(} 
+FOLLOW(A)={)}
+FOLLOW(K)={)}
+FOLLOW(E)={), ;, ,}
+FOLLOW(1)={), ;, ,}
+FOLLOW(R)={&&, ), ;, ,}
+FOLLOW(2)={&&, ), ;, ,}
+FOLLOW(G)={id, (, entero, cadena, true, false} 
+FOLLOW(U)={==, !=, &&, ), ;, ,}
+FOLLOW(3)={==, !=, &&, ), ;, ,}
+FOLLOW(J)={id, (, entero, cadena, true, false}
+FOLLOW(V)={+, -, ==, !=, &&, ), ;, ,}
+FOLLOW(Z)={+, -, ==, !=, &&, ), ;, ,}
+FOLLOW(I)={;, )}
+FOLLOW(M)={id, (, entero, cadena, true, false}

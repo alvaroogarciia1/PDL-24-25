@@ -1,0 +1,18 @@
+let String b;
+let number a;
+let number int;
+a=10;
+b=20;
+if( a < b){
+alert ("Introduce el operando");
+input (b);
+}
+function number operacion (number num1, number num2)
+{
+	return num1 + num2+77;
+}
+
+int = 0;
+
+alert (operacion (a, b));
+

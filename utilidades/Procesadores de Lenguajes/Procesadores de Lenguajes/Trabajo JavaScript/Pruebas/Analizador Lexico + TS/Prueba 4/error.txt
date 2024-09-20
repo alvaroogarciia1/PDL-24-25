@@ -1,0 +1,6 @@
+ERROR: el caracter 1 no es valido. Los comentarios son con 2 barras: //. En la linea 7
+ERROR: el caracter | no es un O-lógico. Carácter no reconocido. En la linea 8
+ERROR: el caracter b no es un O-lógico. Carácter no reconocido. En la linea 8
+ERROR: el caracter   no es valido. Los comentarios son con 2 barras: //. En la linea 9
+ERROR: el caracter   no es valido. Los comentarios son con 2 barras: //. En la linea 11
+ERROR: el caracter   no es valido. Los comentarios son con 2 barras: //. En la linea 14

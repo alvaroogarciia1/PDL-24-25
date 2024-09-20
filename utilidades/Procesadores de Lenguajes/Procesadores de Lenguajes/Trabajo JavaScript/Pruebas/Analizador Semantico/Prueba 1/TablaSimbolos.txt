@@ -1,0 +1,186 @@
+Tabla de Simbolos Principal #1:
+* LEXEMA: 's1'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 0
+* LEXEMA: 'n2'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 64
+* LEXEMA: 'n3'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 65
+* LEXEMA: 'b2'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 66
+* LEXEMA: 'b3'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 67
+* LEXEMA: 's2'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 68
+* LEXEMA: 's3'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 132
+* LEXEMA: 'f6'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 1
+      + TipoParam1: 'int'
+     + TipoRetorno: 'void'
+     + EtiqFuncion: 'Et1_f6'
+* LEXEMA: 'f1'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 0
+     + TipoRetorno: 'void'
+     + EtiqFuncion: 'Et2_f1'
+* LEXEMA: 'f2'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 2
+      + TipoParam1: 'int'
+      + TipoParam2: 'string'
+     + TipoRetorno: 'void'
+     + EtiqFuncion: 'Et3_f2'
+* LEXEMA: 'f3'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 1
+      + TipoParam1: 'int'
+     + TipoRetorno: 'int'
+     + EtiqFuncion: 'Et4_f3'
+* LEXEMA: 'f4'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 3
+      + TipoParam1: 'string'
+      + TipoParam2: 'log'
+      + TipoParam3: 'int'
+     + TipoRetorno: 'log'
+     + EtiqFuncion: 'Et5_f4'
+* LEXEMA: 'f5'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 5
+      + TipoParam1: 'string'
+      + TipoParam2: 'log'
+      + TipoParam3: 'int'
+      + TipoParam4: 'int'
+      + TipoParam5: 'log'
+     + TipoRetorno: 'string'
+     + EtiqFuncion: 'Et6_f5'
+
+Tabla de Simbolos de la Funcion f6 #2:
+* LEXEMA: 'n4'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 0
+* LEXEMA: 'bbb'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 1
+
+Tabla de Simbolos de la Funcion f1 #3:
+* LEXEMA: 'nn'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 0
+* LEXEMA: 'n2'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 1
+
+Tabla de Simbolos de la Funcion f2 #4:
+* LEXEMA: 'n1'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 65
+* LEXEMA: 'b1'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 66
+* LEXEMA: 'n5'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 130
+* LEXEMA: 'n4'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 0
+* LEXEMA: 's4'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 1
+
+Tabla de Simbolos de la Funcion f3 #5:
+* LEXEMA: 'n2'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 0
+* LEXEMA: 'k'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 1
+* LEXEMA: 's2'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 65
+* LEXEMA: 'n3'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 129
+
+Tabla de Simbolos de la Funcion f4 #6:
+* LEXEMA: 'n1'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 0
+* LEXEMA: 's1'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 64
+* LEXEMA: 'b1'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 65
+* LEXEMA: 'nbs'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 66
+* LEXEMA: 'f1'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 67
+
+Tabla de Simbolos de la Funcion f5 #7:
+* LEXEMA: 'f3'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 64
+* LEXEMA: 'f4'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 65
+* LEXEMA: 'f5'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 66
+* LEXEMA: 'f7'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 67
+* LEXEMA: 'ff'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 68
+* LEXEMA: 'f2'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 0
+

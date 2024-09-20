@@ -1,0 +1,33 @@
+let number x;
+let number xx;
+let string ss;
+let boolean boolean_1;
+let boolean boolean_2;
+let number y;
+
+function number f1(number f1, boolean b1)
+{
+		alert(ss);
+		x = xx/f1;
+		boolean_1 = boolean_1|| boolean_2;
+		return (01234);
+}
+
+
+function boolean f2(number f2, boolean b1)
+{
+		alert ((04-5+77/(88-f2)));
+		return boolean_1||boolean_2|| b1;
+}
+
+x =
+  x + 6	
+    - z 
+    - 1
+    / (2
+    - y 
+    / 6)
+	;
+	
+
+alert (f1 (x, f2 (3, boolean_2)));

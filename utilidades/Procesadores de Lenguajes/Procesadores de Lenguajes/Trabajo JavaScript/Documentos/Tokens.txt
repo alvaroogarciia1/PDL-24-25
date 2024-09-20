@@ -1,0 +1,31 @@
+Tokens de la practica
+
+1. <ENTERO, valor>  	<- Maximo Nº 32767		V
+2. <CADENA, lexema>  	<- Máximo char 64		V
+3. <FUNCTION, ->      	<- Función 			V
+4. <BOOLEAN, ->		<- booleano 16bits		V
+5. <TRUE, ->		<- True				V
+6. <FALSE, -> 		<- False			V
+7. <PARENTA, ->		<- (				V
+8. <PARENTC, ->		<- )				V
+9. <SUMA, -> 		<- +				V
+10. <RESTA, -> 		<- -				V
+11. <IGUIGU, -> 	<- ==				V
+12. <DESIGU, -> 	<- !=				V
+13. <AND, -> 		<- &&				V
+14. <IGUAL, -> 		<- =				V
+15. <OLOG, -> 		<- |=				V
+16. <ID,posid> 		<- Identificador		V
+17. <LET, -> 		<- let				V
+18. <INT, ->		<- int 16bits			V
+19. <STRING, -> 	<- string 128Bytes		V
+20. <PRINT, -> 		<- print			V
+21. <INPUT, ->		<- input			V
+22. <PYC, -> 		<- ;				V
+23. <COMA, -> 		<- ,				V	
+24. <RETURN, ->		<- return			V
+25. <IF, ->		<- if				V
+26. <FOR, ->		<- for				V
+27. <CORCHA, -> 	<- {				V
+28. <CORCHC, -> 	<- }				V
+29. <EOF, -> 		<- End of file			V

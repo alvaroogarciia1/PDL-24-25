@@ -1,0 +1,10 @@
+Tabla de Simbolos Principal #1:
+* LEXEMA: 'b'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 0
+* LEXEMA: 'f1'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 64
+

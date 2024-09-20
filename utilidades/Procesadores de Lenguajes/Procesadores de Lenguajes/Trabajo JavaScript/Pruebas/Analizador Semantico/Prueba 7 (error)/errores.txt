@@ -1,0 +1,2 @@
+Errores:
+Error 2: La variable 'a' ya esta inicializada. Linea: 3

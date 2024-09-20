@@ -1,0 +1,12 @@
+let int a;
+let   int  b;
+let boolean bbb;
+a = 3;
+b=a					    		 	 	 	 	 	 	 	 	 	 	 	 	 	 	 													;
+input(z);
+print(z);
+x=z;
+print (z-1);
+b=b&&b;a = a - b;
+print (a) ;
+print(b);

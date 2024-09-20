@@ -1,0 +1,56 @@
+Tabla de Simbolos Principal #1:
+* LEXEMA: 'int1'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 0
+* LEXEMA: 'cadena'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 1
+* LEXEMA: 'logico1'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 65
+* LEXEMA: 'logico2'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 66
+* LEXEMA: 'int2'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 67
+* LEXEMA: 'ff'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 1
+      + TipoParam1: 'string'
+     + TipoRetorno: 'string'
+     + EtiqFuncion: 'Et1_ff'
+* LEXEMA: 'global'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 68
+* LEXEMA: 'funcion'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 1
+      + TipoParam1: 'string'
+     + TipoRetorno: 'string'
+     + EtiqFuncion: 'Et2_funcion'
+
+Tabla de Simbolos de la Funcion ff #2:
+* LEXEMA: 'sss'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 0
+
+Tabla de Simbolos de la Funcion funcion #3:
+* LEXEMA: 'logico2'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 0
+* LEXEMA: 'var'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 64
+

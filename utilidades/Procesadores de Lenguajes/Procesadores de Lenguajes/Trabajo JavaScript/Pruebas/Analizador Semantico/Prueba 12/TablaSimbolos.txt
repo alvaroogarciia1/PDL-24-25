@@ -1,0 +1,76 @@
+Tabla de Simbolos Principal #1:
+* LEXEMA: 'booleano'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 0
+* LEXEMA: 'bisiesto'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 1
+      + TipoParam1: 'int'
+     + TipoRetorno: 'log'
+     + EtiqFuncion: 'Et1_bisiesto'
+* LEXEMA: 'dias'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 2
+      + TipoParam1: 'int'
+      + TipoParam2: 'int'
+     + TipoRetorno: 'int'
+     + EtiqFuncion: 'Et2_dias'
+* LEXEMA: 'esFechaCorrecta'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 3
+      + TipoParam1: 'int'
+      + TipoParam2: 'int'
+      + TipoParam3: 'int'
+     + TipoRetorno: 'log'
+     + EtiqFuncion: 'Et3_esFechaCorrecta'
+* LEXEMA: 'demo'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 0
+     + TipoRetorno: 'void'
+     + EtiqFuncion: 'Et4_demo'
+* LEXEMA: 'zxyvw'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 1
+
+Tabla de Simbolos de la Funcion bisiesto #2:
+* LEXEMA: 'a'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 0
+
+Tabla de Simbolos de la Funcion dias #3:
+* LEXEMA: 'm'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 0
+* LEXEMA: 'a'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 1
+* LEXEMA: 'dd'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 2
+
+Tabla de Simbolos de la Funcion esFechaCorrecta #4:
+* LEXEMA: 'd'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 0
+* LEXEMA: 'm'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 1
+* LEXEMA: 'a'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 2
+
+Tabla de Simbolos de la Funcion demo #5:
+

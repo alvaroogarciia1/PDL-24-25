@@ -1,0 +1,139 @@
+<LET, >
+<BOOLEAN, >
+<ID , 0 >
+<PYC, >
+<FUNCTION, >
+<ID , 1 >
+<BOOLEAN, >
+<PARENTA, >
+<INT, >
+<ID , 2 >
+<PARENTC, >
+<CORCHA, >
+<RETURN, >
+<PARENTA, >
+<ID , 2 >
+<SUMA, >
+<ENTERO , 4 >
+<DESIGU, >
+<ENTERO , 0 >
+<AND, >
+<ID , 2 >
+<RESTA, >
+<ENTERO , 100 >
+<IGUIGU, >
+<ENTERO , 0 >
+<AND, >
+<ID , 2 >
+<SUMA, >
+<ENTERO , 400 >
+<IGUIGU, >
+<ENTERO , 0 >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 3 >
+<INT, >
+<PARENTA, >
+<INT, >
+<ID , 4 >
+<COMA, >
+<INT, >
+<ID , 2 >
+<PARENTC, >
+<CORCHA, >
+<LET, >
+<INT, >
+<ID , 5 >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "di cuantos_dias tiene el mes " >
+<PARENTC, >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<ID , 4 >
+<PARENTC, >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 5 >
+<PARENTC, >
+<PYC, >
+<IF, >
+<PARENTA, >
+<ID , 1 >
+<PARENTA, >
+<ID , 2 >
+<PARENTC, >
+<PARENTC, >
+<ID , 5 >
+<IGUAL, >
+<ID , 5 >
+<RESTA, >
+<ENTERO , 1 >
+<PYC, >
+<RETURN, >
+<ID , 5 >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 6 >
+<BOOLEAN, >
+<PARENTA, >
+<INT, >
+<ID , 7 >
+<COMA, >
+<INT, >
+<ID , 4 >
+<COMA, >
+<INT, >
+<ID , 2 >
+<PARENTC, >
+<CORCHA, >
+<RETURN, >
+<PARENTA, >
+<ID , 7 >
+<IGUIGU, >
+<ID , 3 >
+<PARENTA, >
+<ID , 4 >
+<COMA, >
+<ID , 2 >
+<PARENTC, >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 8 >
+<PARENTA, >
+<PARENTC, >
+<CORCHA, >
+<IF, >
+<PARENTA, >
+<ID , 6 >
+<PARENTA, >
+<ENTERO , 25 >
+<COMA, >
+<ENTERO , 10 >
+<COMA, >
+<ENTERO , 2021 >
+<PARENTC, >
+<PARENTC, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "ok" >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<ID , 8 >
+<PARENTA, >
+<PARENTC, >
+<PYC, >
+<LET, >
+<STRING, >
+<ID , 9 >
+<PYC, >
+<EOF, >

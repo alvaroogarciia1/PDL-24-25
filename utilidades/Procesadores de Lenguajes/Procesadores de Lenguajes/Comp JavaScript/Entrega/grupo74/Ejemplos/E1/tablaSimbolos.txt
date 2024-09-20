@@ -1,0 +1,32 @@
+Tabla Programa Principal # 1:
+* LEXEMA : 'a'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '0'
+* LEXEMA : 'b'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '1'
+* LEXEMA : 'int'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '2'
+* LEXEMA : 'operacion'
+  ATRIBUTOS :
+    + tipo : 'function'
+    + numParam : 2
+    + TipoParam1 : 'entero'
+    + TipoParam2 : 'entero'
+    + TipoRetorno : 'entero'
+    + EtiqFuncion : 'Etiq_operacion'
+
+Tabla Funcion operacion # 2:
+* LEXEMA : 'num1'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '0'
+* LEXEMA : 'num2'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '1'
+

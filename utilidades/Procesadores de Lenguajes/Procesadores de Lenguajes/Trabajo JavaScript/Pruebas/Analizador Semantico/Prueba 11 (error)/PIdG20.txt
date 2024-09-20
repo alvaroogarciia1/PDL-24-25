@@ -1,0 +1,2 @@
+let string b;
+f1(b);

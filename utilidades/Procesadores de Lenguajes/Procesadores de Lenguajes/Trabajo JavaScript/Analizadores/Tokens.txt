@@ -1,0 +1,13 @@
+<LET, >
+<BOOLEAN, >
+<ID , 0 >
+<PYC, >
+<ID , 0 >
+<IGUAL, >
+<ENTERO , 3 >
+<IGUIGU, >
+<ENTERO , 2 >
+<SUMA, >
+<ENTERO , 1 >
+<PYC, >
+<EOF, >

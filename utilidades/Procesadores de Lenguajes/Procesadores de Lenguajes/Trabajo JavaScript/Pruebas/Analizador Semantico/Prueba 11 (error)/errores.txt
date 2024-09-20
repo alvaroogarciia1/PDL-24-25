@@ -1,0 +1,4 @@
+Errores:
+Error 3: La variable 'f1' no existe. Linea: 2
+Error 7: Los parametros de llamada de la funcion 'f1' no coinciden. Linea 2
+Error 12: La funcion 'f1' no existe. Linea 3

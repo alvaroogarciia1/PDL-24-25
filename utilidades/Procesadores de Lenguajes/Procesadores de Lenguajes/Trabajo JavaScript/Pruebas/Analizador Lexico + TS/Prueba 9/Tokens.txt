@@ -1,0 +1,145 @@
+<LET, >
+<BOOLEAN, >
+<ID , 0 >
+<PYC, >
+<FUNCTION, >
+<ID , 1 >
+<BOOLEAN, >
+<PARENTA, >
+<INT, >
+<ID , 2 >
+<PARENTC, >
+<CORCHA, >
+<LET, >
+<STRING, >
+<ID , 3 >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "Es bisiesto?" >
+<PARENTC, >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 3 >
+<PARENTC, >
+<PYC, >
+<RETURN, >
+<PARENTA, >
+<PARENTA, >
+<ID , 2 >
+<SUMA, >
+<ENTERO , 4 >
+<DESIGU, >
+<ENTERO , 0 >
+<PARENTC, >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 4 >
+<INT, >
+<PARENTA, >
+<INT, >
+<ID , 5 >
+<COMA, >
+<INT, >
+<ID , 2 >
+<PARENTC, >
+<CORCHA, >
+<LET, >
+<INT, >
+<ID , 6 >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "di cuantos dias tiene el mes " >
+<PARENTC, >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<ID , 5 >
+<PARENTC, >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 6 >
+<PARENTC, >
+<PYC, >
+<IF, >
+<PARENTA, >
+<ID , 1 >
+<PARENTA, >
+<ID , 2 >
+<PARENTC, >
+<PARENTC, >
+<ID , 6 >
+<IGUAL, >
+<ID , 6 >
+<SUMA, >
+<ENTERO , 1 >
+<PYC, >
+<RETURN, >
+<ID , 6 >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 7 >
+<BOOLEAN, >
+<PARENTA, >
+<INT, >
+<ID , 8 >
+<COMA, >
+<INT, >
+<ID , 5 >
+<COMA, >
+<INT, >
+<ID , 2 >
+<PARENTC, >
+<CORCHA, >
+<RETURN, >
+<PARENTA, >
+<ID , 8 >
+<DESIGU, >
+<ID , 4 >
+<PARENTA, >
+<ID , 5 >
+<COMA, >
+<ID , 2 >
+<PARENTC, >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 9 >
+<PARENTA, >
+<PARENTC, >
+<CORCHA, >
+<IF, >
+<PARENTA, >
+<ID , 7 >
+<PARENTA, >
+<ENTERO , 22 >
+<COMA, >
+<ENTERO , 22 >
+<COMA, >
+<ENTERO , 2022 >
+<PARENTC, >
+<PARENTC, >
+<PRINT, >
+<PARENTA, >
+<ENTERO , 9999 >
+<PARENTC, >
+<PYC, >
+<RETURN, >
+<PYC, >
+<CORCHC, >
+<LET, >
+<BOOLEAN, >
+<ID , 10 >
+<PYC, >
+<ID , 9 >
+<PARENTA, >
+<PARENTC, >
+<PYC, >
+<EOF, >

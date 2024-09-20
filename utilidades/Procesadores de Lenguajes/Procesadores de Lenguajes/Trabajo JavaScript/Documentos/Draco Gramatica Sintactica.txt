@@ -1,0 +1,65 @@
+Axioma = P
+
+NoTerminales = { P B T S D X C L Q F H A K E 1 R 2 G U 3 J V Z I M }
+
+Terminales = { id entero cadena function boolean true false ( ) + - = == != && |= let int string print input ; , return { } if for eof }
+
+Producciones = {
+	P -> B P 
+	P -> F P 
+	P -> eof 
+	P -> lambda
+	B -> let T id ; 
+	B -> if ( E ) S 
+	B -> S 
+	B -> for ( I ; E ; I ) { C }
+	T -> int 
+	T -> string 
+	T -> boolean
+	S -> id D ;
+	S -> print ( E ) ; 
+	S -> input ( id ) ; 
+	S -> return X ;
+	D -> M E  
+	D -> ( L ) 
+	X -> E 
+	X -> lambda
+	C -> B C 
+	C -> lambda
+	L -> E Q 
+	L -> lambda
+	Q -> , E Q 
+	Q -> lambda
+	F -> function id H ( A ) { C }
+	H -> T 
+	H -> lambda
+	A -> T id K 
+	A -> lambda
+	K -> , T id K 
+	K -> lambda
+	E -> R 1
+	1 -> && R 1 
+	1 -> lambda
+	R -> U 2
+	2 -> G U 2 
+	2 -> lambda
+	G -> == 
+	G -> != 
+	U -> V 3
+	3 -> J V 3 
+	3 -> lambda
+	J -> + 
+	J -> -
+	V -> id Z
+	V -> ( E ) 
+	V -> entero 
+	V -> cadena 
+	V -> true 
+	V -> false
+	Z -> ( L )
+	Z -> lambda
+	I -> id M E 
+	I -> lambda
+	M -> = 
+	M -> |= 
+}

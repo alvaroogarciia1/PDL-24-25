@@ -1,0 +1,27 @@
+Tabla Programa Principal # 1:
+* LEXEMA : 'n4'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '0'
+* LEXEMA : 'n1'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '1'
+* LEXEMA : 'f3'
+  ATRIBUTOS :
+    + tipo : 'function'
+    + numParam : 1
+    + TipoParam1 : 'entero'
+    + TipoRetorno : 'entero'
+    + EtiqFuncion : 'Etiq_f3'
+
+Tabla Funcion f3 # 2:
+* LEXEMA : 'n2'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '0'
+* LEXEMA : 'n3'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '1'
+

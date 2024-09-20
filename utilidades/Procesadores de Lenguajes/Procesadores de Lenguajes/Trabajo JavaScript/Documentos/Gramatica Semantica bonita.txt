@@ -1,0 +1,60 @@
+{
+	(0)P' -> {TSG = newTS(); desplG := 0; zona_dec = false; T_actual := TSG; desplAct := desplG} P {destruyeTS(TSG)}
+	(1)P -> B P 
+	(2)P -> F P 
+	(3)P -> eof 
+	(4)P -> lambda
+	(5)B -> let {zona_dec = true} T id ; {insertarTS(id.posTS,T.tipo,desplAct); desplAct := desplAct + T.ancho; zona_dec = false}
+	(6)B -> if ( E ) S {if(E.tipo = log && S.tipo = tipo.ok) then B.tipo := tipo.ok else B.tipo := tipo.error; B.tiporet := S.tiporet}
+	(7)B -> S {B.tipo := S.tipo; B.tiporet := S.tiporet}
+	(8)B -> for ( I ; E ; I1 ) { C } {if(I.tipo != tipo.error && E.tipo = log && I1.tipo != tipo.error) then B.tipo := C.tipo; B.tiporet := C.tiporet; else B.tipo := tipo.error}
+	(9)T -> int {T.tipo := int, T.ancho := 1}
+	(10)T -> string {T.tipo := string, T.ancho := 64}
+	(11)T -> boolean {T.tipo := log, T.ancho := 1}
+	(12)S -> id D ; {if(buscarTipoTS(id.pos) = D.tipo) then S.tipo := tipo.ok else S.tipo := tipo.error}
+	(13)S -> print ( E ) ; {if(E.tipo = int || E.tipo = string) then S.tipo := tipo.ok ; S.tiporet = tipo.ok else S.tipo := tipo.error}
+	(14)S -> input ( id ) ; {if(buscarTipoTS(id.pos) = int || buscarTipoTS(id.pos) = string) then S.tipo := tipo.ok; S.tiporet = tipo.ok else S.tipo := tipo.error}
+	(15)S -> return X ; {If X.tipo != tipo.error) then S.tipo := tipo.ok else S.tipo := tipo.error; S.tiporet := X.tipo}
+	(16)D -> M E  {D.tipo := E.tipo} 
+	(17)D -> ( L ) {D.tipo := L.tipo}
+	(18)X -> E {X.tipo := E.tipo}
+	(19)X -> lambda {X.tipo := void}
+	(20)C -> B C1 {If(B.tipo != tipo.error && C1.tipo != tipo.error) then [If(B.tiporet = void) then C.tiporet := C1.tiporet; C.tipo := tipo.ok else if(C1.tiporet = void) then C.tiporet := B.tiporet; C.tipo := tipo.ok else if(B.tiporet = C1.tiporet) then C.tiporet := C1.tiporet; C.tipo := tipo.ok else C.tiporet = tipo.error; C.tipo := tipo.error] else C.tiporet = tipo.error; C.tipo = tipo.error}
+	(21)C -> lambda {C.tipo := tipo.ok; C.tiporet := void}
+	(22)L -> E Q {If E.tipo = {int,string,log}) then L.tipo := E.tipo x Q.tipo else L.tipo := tipo.error}
+	(23)L -> lambda {L.tipo := void}
+	(24)Q -> , E Q1 {If E.tipo = {int,string,log}) then Q.tipo := E.tipo x Q1.tipo else Q.tipo := tipo.error}
+	(25)Q -> lambda {Q.tipo = void}
+	(26)F -> function {zona_dec = true} id H {TSL = newTS(); desplL := 0; T_actual := TSL; desplAct = desplL} ( A {zona_dec = false}) {insertarTS(id.posTS,A.tipo -> H.tipo,-); insertarEtiqueta(id.posTS,newEtiqueta())} { C } {If(C.tipo != tipo.error) then [If((C.tiporet = tipo.ok || C.tiporet = void) && H.tipo = void) then T_actual := TSG; deplAct = desplG; destruyeTS(TSL) else if(C.tiporet != H.tipo then error("") else T_actual := TSG; desplAct = desplG; destruyeTS(TSL)] else error("")}
+	(27)H -> T {H.tipo := T.tipo; H.ancho := T.ancho}
+	(28)H -> lambda {H.tipo := void; H.ancho := 0}
+	(29)A -> T id K {insertarTS(id.posTS,T.tipo,desplAct); desplAct = desplAct + T.ancho; A.tipo = T.tipo x K.tipo}
+	(30)A -> lambda {A.tipo = void}
+	(31)K -> , T id K1 {insertarTS(id.posTS,T.tipo,desplAct); desplAct = desplAct + T.ancho; K.tipo = T.tipo x K1.tipo}
+	(32)K -> lambda {K.tipo = void}
+	(33)E -> R 1 {if(1.tipo = void || (1.tipo = log && R.tipo = log)) then E.tipo := R.tipo else E.tipo := tipo_error}
+	(34)1 -> && R 1 {if(1.tipo = void || (1.tipo = log && R.tipo = log)) then 1.tipo := R.tipo else 1.tipo := tipo_error}
+	(35)1 -> lambda {1.tipo = void}
+	(36)R -> U 2 {if(2.tipo = void) then R.tipo := U.tipo else if(2.tipo = U.tipo) then R.tipo := log else R.tipo := tipo_error}
+	(37)2 -> G U 2 {if(2.tipo = void) then 2.tipo := U.tipo else if(2.tipo = U.tipo) then 2.tipo := log else 2.tipo := tipo_error}
+	(38)2 -> lambda {2.tipo = void}
+	(39)G -> == 
+	(40)G -> != 
+	(41)U -> V 3 {if(3.tipo = void || 3.tipo = V.tipo) then U.tipo := V.tipo else U.tipo := tipo_error}
+	(42)3 -> J V 3 {if(3.tipo = void || 3.tipo = V.tipo) then 3.tipo := V.tipo else 3.tipo := tipo_error} 
+	(43)3 -> lambda {3.tipo = void}
+	(44)J -> + 
+	(45)J -> -
+	(46)V -> id Z {If(buscarTSL(id.posTS) || buscarTSG(id.posTS) then V.tipo := buscarTipoTS(id.posTS) else V.tipo := tipo_error} 
+	(47)V -> ( E ) {V.tipo := E.tipo}
+	(48)V -> entero {V.tipo := int}
+	(49)V -> cadena {V.tipo := string}
+	(50)V -> true {V.tipo := log}
+	(51)V -> false {V.tipo := log}
+	(52)Z -> ( L ) {Z.tipo := L.tipo}
+	(53)Z -> lambda {Z.tipo := void}
+	(54)I -> id M E {If(buscarTipoTS(id.posTS) = E.tipo) then I.tipo := tipo.ok else I.tipo := tipo.error}
+	(55)I -> lambda {I.tipo = void}
+	(56)M -> = 
+	(57)M -> |= 
+}

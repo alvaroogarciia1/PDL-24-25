@@ -1,0 +1,5 @@
+Tabla de Simbolos Principal #1:
+ * LEXEMA : 'a' 
+ * LEXEMA : 'b' 
+ * LEXEMA : 'bbb' 
+ * LEXEMA : 'c' 

@@ -1,0 +1,39 @@
+FIRST(P)={var, function, λ, if, return, id}
+FIRST(D)={var, λ, function}
+FIRST(F)={function}
+FIRST(L)={;, λ}
+FIRST(T)={integer, boolean}
+FIRST(S)={if, return, id}
+FIRST(E)={id}
+FIRST(K)={id}
+FIRST(R)={λ, ;}
+
+FOLLOW(P)={$}
+FOLLOW(D)={var, function, if, return, id, $}
+FOLLOW(F)={;}
+FOLLOW(L)={)}
+FOLLOW(T)={id, (, ;, )}
+FOLLOW(S)={var, function, if, return, id, $, end}
+FOLLOW(E)={do, var, function, if, return, id, $, end, ;, )}
+FOLLOW(K)={), ;}
+FOLLOW(R)={), ;}
+
+
+------------------------------------------------------------------------------
+FIRST(P)={a, b, e, λ, d}
+FIRST(A)={a, λ}
+FIRST(B)={a, b, λ}
+FIRST(C)={e, λ}
+FIRST(D)={a, b, if, id, (, g}
+FIRST(R)={int, bool, a, b, e, λ, d}
+FIRST(S)={if, id, λ}
+FIRST(E)={(, g}
+
+FOLLOW(P)={$, f}
+FOLLOW(A)={a, b, e, $, f, if, id, (, g}
+FOLLOW(B)={e, $, f, if, id, (, g}
+FOLLOW(C)={$, f}
+FOLLOW(D)={int, bool, a, b, e, d, f}
+FOLLOW(R)={f}
+FOLLOW(S)={(, g, }}
+FOLLOW(E)={int, bool, a, b, e, d, f, ), ;}

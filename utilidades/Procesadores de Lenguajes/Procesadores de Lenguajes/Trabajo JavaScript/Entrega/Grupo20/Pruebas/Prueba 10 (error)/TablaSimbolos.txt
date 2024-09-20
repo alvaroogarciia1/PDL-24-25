@@ -1,0 +1,19 @@
+Tabla de Simbolos Principal #1:
+* LEXEMA: 'b'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 0
+* LEXEMA: 'f1'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 1
+      + TipoParam1: 'int'
+     + TipoRetorno: 'void'
+     + EtiqFuncion: 'Et1_f1'
+
+Tabla de Simbolos de la Funcion f1 #2:
+* LEXEMA: 'a'
+ ATRIBUTOS: 
+    + tipo: 'int' 
+     + despl: 0
+

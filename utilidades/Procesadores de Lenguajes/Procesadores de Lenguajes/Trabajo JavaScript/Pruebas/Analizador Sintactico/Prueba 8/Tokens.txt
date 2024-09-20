@@ -1,0 +1,51 @@
+<LET, >
+<STRING, >
+<ID , 0 >
+<PYC, >
+<FUNCTION, >
+<ID , 1 >
+<PARENTA, >
+<PARENTC, >
+<CORCHA, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "Introduce una palabra" >
+<PARENTC, >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 0 >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 2 >
+<PARENTA, >
+<STRING, >
+<ID , 3 >
+<PARENTC, >
+<CORCHA, >
+<PRINT, >
+<PARENTA, >
+<ID , 3 >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<ID , 1 >
+<PARENTA, >
+<PARENTC, >
+<PYC, >
+<LET, >
+<STRING, >
+<ID , 4 >
+<PYC, >
+<ID , 4 >
+<IGUAL, >
+<ID , 0 >
+<PYC, >
+<ID , 2 >
+<PARENTA, >
+<ID , 4 >
+<PARENTC, >
+<PYC, >
+<EOF, >

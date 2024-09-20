@@ -1,0 +1,22 @@
+Tabla Programa Principal # 1:
+* LEXEMA : 'b'
+  ATRIBUTOS :
+    + tipo : 'boolean'
+    + despl : '0'
+* LEXEMA : 'x'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '1'
+* LEXEMA : 'z'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '2'
+* LEXEMA : 'esto_es_un_nombre_de_variable_global_de_tipo_entero'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '4'
+* LEXEMA : 'y'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '6'
+

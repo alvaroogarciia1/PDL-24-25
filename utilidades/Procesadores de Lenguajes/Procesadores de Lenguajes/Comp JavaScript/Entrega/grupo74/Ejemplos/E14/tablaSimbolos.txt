@@ -1,0 +1,39 @@
+Tabla Programa Principal # 1:
+* LEXEMA : 'n1'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '0'
+* LEXEMA : 'l1'
+  ATRIBUTOS :
+    + tipo : 'boolean'
+    + despl : '1'
+* LEXEMA : 'cad'
+  ATRIBUTOS :
+    + tipo : 'string'
+    + despl : '2'
+* LEXEMA : 'n2'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '66'
+* LEXEMA : 'l2'
+  ATRIBUTOS :
+    + tipo : 'boolean'
+    + despl : '67'
+* LEXEMA : 'ff'
+  ATRIBUTOS :
+    + tipo : 'function'
+    + numParam : 1
+    + TipoParam1 : 'boolean'
+    + TipoRetorno : 'boolean'
+    + EtiqFuncion : 'Etiq_ff'
+* LEXEMA : 'varglobal'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '68'
+
+Tabla Funcion ff # 2:
+* LEXEMA : 'ss'
+  ATRIBUTOS :
+    + tipo : 'boolean'
+    + despl : '0'
+

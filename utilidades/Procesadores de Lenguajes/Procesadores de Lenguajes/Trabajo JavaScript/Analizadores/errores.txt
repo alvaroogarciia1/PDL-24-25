@@ -1,0 +1,4 @@
+Errores:
+Error 3: La variable 'global' no existe. Linea: 20
+Error 3: La variable 'aux' no existe. Linea: 27
+Error 6: Tipo del id 'Func2' no coincidentes. Linea: 38

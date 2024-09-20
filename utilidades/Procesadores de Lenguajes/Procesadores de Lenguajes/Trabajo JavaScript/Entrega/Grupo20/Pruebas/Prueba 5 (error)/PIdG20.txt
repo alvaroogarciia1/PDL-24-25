@@ -1,0 +1,6 @@
+let int a; 
+let string b;
+function fi int(){
+return b;
+}
+let int c;

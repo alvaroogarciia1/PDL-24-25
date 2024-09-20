@@ -1,0 +1,3 @@
+let int a;
+let int b;
+a = "hola";

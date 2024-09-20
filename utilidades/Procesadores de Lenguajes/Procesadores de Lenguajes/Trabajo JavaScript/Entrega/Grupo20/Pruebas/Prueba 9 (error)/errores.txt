@@ -1,0 +1,2 @@
+Errores:
+Error 4: Valor fuera de rango. Linea: 3

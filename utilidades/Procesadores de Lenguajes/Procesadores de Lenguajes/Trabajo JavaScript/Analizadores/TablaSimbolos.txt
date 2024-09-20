@@ -1,0 +1,6 @@
+Tabla de Simbolos Principal #1:
+* LEXEMA: 'a'
+ ATRIBUTOS: 
+    + tipo: 'log' 
+     + despl: 0
+

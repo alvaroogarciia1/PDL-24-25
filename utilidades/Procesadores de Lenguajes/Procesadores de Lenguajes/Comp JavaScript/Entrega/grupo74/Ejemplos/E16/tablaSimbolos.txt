@@ -1,0 +1,66 @@
+Tabla Programa Principal # 1:
+* LEXEMA : 'x'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '0'
+* LEXEMA : 'xx'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '1'
+* LEXEMA : 'ss'
+  ATRIBUTOS :
+    + tipo : 'string'
+    + despl : '2'
+* LEXEMA : 'boolean_1'
+  ATRIBUTOS :
+    + tipo : 'boolean'
+    + despl : '66'
+* LEXEMA : 'boolean_2'
+  ATRIBUTOS :
+    + tipo : 'boolean'
+    + despl : '67'
+* LEXEMA : 'y'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '68'
+* LEXEMA : 'f1'
+  ATRIBUTOS :
+    + tipo : 'function'
+    + numParam : 2
+    + TipoParam1 : 'entero'
+    + TipoParam2 : 'boolean'
+    + TipoRetorno : 'entero'
+    + EtiqFuncion : 'Etiq_f1'
+* LEXEMA : 'f2'
+  ATRIBUTOS :
+    + tipo : 'function'
+    + numParam : 2
+    + TipoParam1 : 'entero'
+    + TipoParam2 : 'boolean'
+    + TipoRetorno : 'boolean'
+    + EtiqFuncion : 'Etiq_f2'
+* LEXEMA : 'z'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '69'
+
+Tabla Funcion f1 # 2:
+* LEXEMA : 'f1'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '0'
+* LEXEMA : 'b1'
+  ATRIBUTOS :
+    + tipo : 'boolean'
+    + despl : '1'
+
+Tabla Funcion f2 # 3:
+* LEXEMA : 'f2'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '0'
+* LEXEMA : 'b1'
+  ATRIBUTOS :
+    + tipo : 'boolean'
+    + despl : '1'
+

@@ -1,0 +1,22 @@
+let int a;
+let int b;
+let int int;
+let string aux;
+print ("Introduce el primer operando");
+input (a);
+print ("Introduce el segundo operando");
+input (b);
+function int operacion (int num1, int num2)
+{
+	return num1+num2;
+}
+
+int == 0;
+b != 1;
+print (operacion (a, a+b));
+
+c && d;
+a = true;
+b = false;
+c |= 2;
+, return if for;

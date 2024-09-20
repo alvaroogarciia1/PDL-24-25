@@ -1,0 +1,14 @@
+let int x;
+let int z;
+let boolean b;
+input (z);
+print (z);
+x==z;
+print (z/1);
+b=b||b;if (b) z =
+  x / 6
+    + z
+    / (1
+    - 2
+    - y)
+    / 8;

@@ -1,0 +1,65 @@
+1º 0-0: LEER
+2º 0-1: LEER; Lexema(l)
+3º 1-1: LEER; CONCAT(lexema) (lexema = lexema + l)	// A los profes les mola mas el uso de ⊕ UwU
+4º 1-9: LEER; CONCAT(lexema) (lexema = lexema + d)
+5º 1-20: if(esPalabraReservada(lexema) = true){
+		GENTOKEN(lexema.toUpperCase(),-)
+	 }
+	 else{ 
+		ERROR("Palabra reservada inexistente")
+	 };LEER
+6º 9-9: LEER; CONCAT(lexema) (lexema = lexema + l/d)
+7º 9-21: if(zona declaracion = true){
+		if(buscarTS(lexema) = false){
+			añadirTS(lexema,posID)
+			GENTOKEN(ID,posID)
+		}
+		else{
+			ERROR("Variable ya existe")
+		}
+	 else{
+		if(buscarTS(lexema) = false){ 		// Cuando buscarTS es false es añadir a tabla si fuese true se reutiliza la posID
+			GENTOKEN(ID,posID)
+		}
+		else{
+			ERROR("Variable no declarada")
+		}
+	 };LEER
+8º 0-2: LEER; valor(d)
+9º 2-2: valor = 10 * valor + d; LEER
+10º 2-22: if(valor < 32767){
+		GENTOKEN(ENTERO,valor)
+	  }
+	  else{
+		ERROR("Numero muy grande") 
+	  }
+11º 0-3: LEER
+12º 3-23: GENTOKEN(IGUIGU,-); LEER
+13º 3-24: GENTOKEN(IGUAL,-)
+14º 0-4: LEER
+15º 4-25: GENTOKEN(DESIGU,-);LEER
+16º 0-5: LEER
+17º 5-26: GENTOKEN(AND,-); LEER
+18º 0-6: LEER
+19º 6-10: LEER
+20º 10-10: LEER
+21º 10-0: LEER
+22º 0-7: LEER; lexema(l)
+23º 7-7: CONCAT(lexema) (lexema=lexema + c); LEER
+24º 7-27: if(lexema.size < 64){
+		GENTOKEN(CADENA,lexema)
+	  }
+	  else{
+		ERROR("Lexema demasiado grande)
+	  }; LEER
+25º 0-8: LEER
+26º 8-28: GENTOKEN(OLOG,-);LEER
+27º 0-11: GENTOKEN(CORCHA,-);LEER
+28º 0-12: GENTOKEN(CORCHC,-);LEER
+29º 0-13: GENTOKEN(EOF,-);LEER
+30º 0-14: GENTOKEN(COMA,-);LEER
+31º 0-15: GENTOKEN(PYC,-);LEER
+32º 0-16: GENTOKEN(SUMA,-);LEER
+33º 0-17: GENTOKEN(RESTA,-);LEER
+34º 0-18: GENTOKEN(PARENTA,-);LEER
+35º 0-19: GENTOKEN(PARENTC,-);LEER 

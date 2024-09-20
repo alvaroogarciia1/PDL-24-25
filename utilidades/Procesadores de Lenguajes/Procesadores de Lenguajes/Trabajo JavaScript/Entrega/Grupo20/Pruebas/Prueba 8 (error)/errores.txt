@@ -1,0 +1,2 @@
+Errores:
+Error 6: Tipo del id 'a' no coincidentes. Linea: 3

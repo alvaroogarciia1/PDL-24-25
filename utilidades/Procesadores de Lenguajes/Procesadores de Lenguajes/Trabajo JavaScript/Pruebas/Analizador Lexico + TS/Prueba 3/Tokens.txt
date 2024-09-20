@@ -1,0 +1,95 @@
+<LET, >
+<INT, >
+<ID , 0 >
+<PYC, >
+<LET, >
+<INT, >
+<ID , 1 >
+<PYC, >
+<LET, >
+<INT, >
+<INT, >
+<PYC, >
+<LET, >
+<STRING, >
+<ID , 2 >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "Introduce el primer operando" >
+<PARENTC, >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 0 >
+<PARENTC, >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "Introduce el segundo operando" >
+<PARENTC, >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 1 >
+<PARENTC, >
+<PYC, >
+<FUNCTION, >
+<INT, >
+<ID , 3 >
+<PARENTA, >
+<INT, >
+<ID , 4 >
+<COMA, >
+<INT, >
+<ID , 5 >
+<PARENTC, >
+<CORCHA, >
+<RETURN, >
+<ID , 4 >
+<SUMA, >
+<ID , 5 >
+<PYC, >
+<CORCHC, >
+<INT, >
+<IGUIGU, >
+<ENTERO , 0 >
+<PYC, >
+<ID , 1 >
+<DESIGU, >
+<ENTERO , 1 >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<ID , 3 >
+<PARENTA, >
+<ID , 0 >
+<COMA, >
+<ID , 0 >
+<SUMA, >
+<ID , 1 >
+<PARENTC, >
+<PARENTC, >
+<PYC, >
+<ID , 6 >
+<AND, >
+<ID , 7 >
+<PYC, >
+<ID , 0 >
+<IGUAL, >
+<TRUE, >
+<PYC, >
+<ID , 1 >
+<IGUAL, >
+<FALSE, >
+<PYC, >
+<ID , 6 >
+<OLOG, >
+<ENTERO , 2 >
+<PYC, >
+<COMA, >
+<RETURN, >
+<IF, >
+<FOR, >
+<PYC, >
+<EOF, >

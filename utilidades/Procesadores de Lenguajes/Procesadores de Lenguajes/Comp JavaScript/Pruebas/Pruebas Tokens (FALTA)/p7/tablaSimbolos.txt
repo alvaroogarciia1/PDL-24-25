@@ -1,0 +1,5 @@
+Tabla Programa Principal # 1:
+* LEXEMA : 'texto'
+* LEXEMA : 'print'
+* LEXEMA : 'msg'
+* LEXEMA : 'pideTexto'

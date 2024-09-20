@@ -1,0 +1,90 @@
+Terminales = { if let id input alert eof ( ; ) , { : } entero number boolean function string return lambda cadena switch case default break = || |= == + - / }
+
+NoTerminales = { E 1 R 2 U 3 G V 4 Z O S D L Q X B Y M N T F H A K C P }
+
+Axioma = P
+
+Producciones = {
+
+E -> R 1 
+1 -> || R 1 
+1 -> lambda 
+
+R -> U 2
+2 -> == U 2
+2 -> lambda
+
+U ->  V 3
+3 ->  G V 3
+3 -> lambda
+G -> +
+G -> -
+
+V -> Z 4 
+4 -> / Z 4
+4 -> lambda
+
+Z -> id O
+
+Z -> ( E )
+Z -> entero 
+Z -> cadena
+O -> lambda 
+O -> ( L )
+
+S -> id D ; 
+S -> alert ( E ) ;  
+S -> input ( id ) ;  
+S -> return X ;
+
+D -> = E
+D -> |= E
+D -> ( L )
+
+L -> E Q 
+L -> lambda
+
+Q -> , E Q
+Q -> lambda
+
+X ->  E 
+X -> lambda
+
+B -> if ( E ) S  
+B -> let T id ; 
+B -> S
+B -> switch ( E ) { Y }
+ 
+Y -> case entero : C M 
+
+M -> break ; N 
+M -> N
+
+N -> Y 
+N -> default : C 
+N -> lambda
+
+T -> number
+T -> boolean 
+T -> string 
+
+F -> function H id ( A ) { C }
+
+H -> T 
+H -> lambda  
+
+A -> T id K
+A -> lambda
+ 
+K -> , T id K 
+K -> lambda
+
+C -> B C
+C -> lambda
+
+P -> B P  
+P -> F P  
+P -> lambda  
+P -> eof 	
+}
+

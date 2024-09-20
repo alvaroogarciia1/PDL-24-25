@@ -1,0 +1,8 @@
+let number n4;
+let number n1;
+function number f3 (number n2)
+{
+    let number n3;
+	if (n1 == n2) n4 = f3 (n3 + 3);
+	return n3;
+}

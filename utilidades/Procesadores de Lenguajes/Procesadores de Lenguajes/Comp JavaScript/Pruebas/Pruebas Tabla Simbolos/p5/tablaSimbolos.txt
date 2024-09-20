@@ -1,0 +1,18 @@
+Tabla Programa Principal # 1:
+* LEXEMA : 'x'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '0'
+* LEXEMA : 'z'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '1'
+* LEXEMA : 'b'
+  ATRIBUTOS :
+    + tipo : 'boolean'
+    + despl : '2'
+* LEXEMA : 'y'
+  ATRIBUTOS :
+    + tipo : 'entero'
+    + despl : '3'
+

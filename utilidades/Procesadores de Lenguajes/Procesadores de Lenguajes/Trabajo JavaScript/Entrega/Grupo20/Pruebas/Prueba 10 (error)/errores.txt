@@ -1,0 +1,2 @@
+Errores:
+Error 7: Los parametros de llamada de la funcion 'f1' no coinciden. Linea 3

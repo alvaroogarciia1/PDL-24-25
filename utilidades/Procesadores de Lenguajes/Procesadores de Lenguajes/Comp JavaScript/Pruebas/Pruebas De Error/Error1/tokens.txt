@@ -1,0 +1,14 @@
+<LET, >
+<NUMBER, >
+<ID, 0>
+<punt, 2>
+<LET, >
+<ID, 1>
+<ID, 2>
+<punt, 2>
+<LET, >
+<NUMBER, >
+<ID, 3>
+<punt, 2>
+<ALERT, >
+<PARENTABRI, >

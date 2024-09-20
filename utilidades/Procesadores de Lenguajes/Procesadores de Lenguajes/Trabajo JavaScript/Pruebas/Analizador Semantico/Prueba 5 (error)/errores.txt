@@ -1,0 +1,2 @@
+Errores:
+Error 9: La funcion no devuelve el tipo inicializado. Linea 4

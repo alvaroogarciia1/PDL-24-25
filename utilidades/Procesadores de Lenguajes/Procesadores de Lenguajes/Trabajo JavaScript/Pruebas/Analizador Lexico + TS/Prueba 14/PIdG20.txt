@@ -1,0 +1,48 @@
+/// prueba correcta
+
+let int entero;
+let string cadena;
+let boolean logico;
+let int abcdefghij________;
+function FuncionNumero ()
+{
+  let int i;
+  let int j;
+  
+  logico = i == j;
+}
+function FuncionRetorno string (string otracadena, int x, boolean z)
+{
+  x = 33 + (x - entero); return otracadena;
+}
+function FuncionSentencia (int b, boolean z)
+{
+  for (b=1 ; z; )
+  {
+	print (88);
+  }
+}
+function Funcion (int x, boolean b)
+{
+	print (FuncionRetorno("",x,true));
+  print 
+    (cadena);return;
+}
+let int iii;
+let boolean bbb;
+// esto
+// es
+// un
+// comentario !
+//// multi ***/
+//línea 
+input(iii);
+print  (  iii  )  ;  
+
+iii = iii;
+bbb |= bbb;
+
+Funcion
+ ( iii, 
+   bbb )
+;

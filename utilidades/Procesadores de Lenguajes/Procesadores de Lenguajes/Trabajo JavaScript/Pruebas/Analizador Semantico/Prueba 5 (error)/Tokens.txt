@@ -1,0 +1,23 @@
+<LET, >
+<INT, >
+<ID , 0 >
+<PYC, >
+<LET, >
+<STRING, >
+<ID , 1 >
+<PYC, >
+<FUNCTION, >
+<ID , 2 >
+<INT, >
+<PARENTA, >
+<PARENTC, >
+<CORCHA, >
+<RETURN, >
+<ID , 1 >
+<PYC, >
+<CORCHC, >
+<LET, >
+<INT, >
+<ID , 3 >
+<PYC, >
+<EOF, >

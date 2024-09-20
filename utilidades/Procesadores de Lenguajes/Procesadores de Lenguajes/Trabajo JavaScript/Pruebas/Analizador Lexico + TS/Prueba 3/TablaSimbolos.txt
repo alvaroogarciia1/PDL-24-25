@@ -1,0 +1,9 @@
+Tabla de Simbolos Principal #1:
+ * LEXEMA : 'a' 
+ * LEXEMA : 'b' 
+ * LEXEMA : 'aux' 
+ * LEXEMA : 'operacion' 
+ * LEXEMA : 'num1' 
+ * LEXEMA : 'num2' 
+ * LEXEMA : 'c' 
+ * LEXEMA : 'd' 

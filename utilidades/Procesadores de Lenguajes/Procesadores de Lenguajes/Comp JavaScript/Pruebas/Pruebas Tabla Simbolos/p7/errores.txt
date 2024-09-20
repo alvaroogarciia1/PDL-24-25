@@ -1,0 +1,2 @@
+Errores:
+Error 5. Funcion no declarada. Linea: 31

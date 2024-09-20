@@ -1,0 +1,1528 @@
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+B                      |
+P                      |
+{1}                    |
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+let                    |
+{5.1}                  |
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |
+P                      |
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.1}                  |
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+int                    |
+{9}                    |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |     T          Ret:  Tipo:     
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{9}                    |
+id                     |
+{5.2}                  |
+pyc                    |     int        Ret:  Tipo:     
+{5.3}                  |     T          Ret:  Tipo:     
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |     T          Ret:  Tipo: int 
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.2}                  |
+pyc                    |     id         Ret:  Tipo: 0   
+{5.3}                  |     T          Ret:  Tipo: int 
+P                      |     let        Ret:  Tipo:     
+{1}                    |     B          Ret:  Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+pyc                    |
+{5.3}                  |
+P                      |
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.3}                  |
+P                      |     pyc        Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+P                      |
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+B                      |
+P                      |
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+let                    |
+{5.1}                  |
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.1}                  |
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+string                 |
+{10}                   |
+id                     |
+{5.2}                  |
+pyc                    |     T          Ret:  Tipo:     
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{10}                   |
+id                     |
+{5.2}                  |     string     Ret:  Tipo:     
+pyc                    |     T          Ret:  Tipo:     
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+id                     |
+{5.2}                  |
+pyc                    |     T          Ret:  Tipo: string
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.2}                  |     id         Ret:  Tipo: 1   
+pyc                    |     T          Ret:  Tipo: string
+{5.3}                  |     let        Ret:  Tipo:     
+P                      |     B          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+pyc                    |
+{5.3}                  |
+P                      |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.3}                  |     pyc        Ret:  Tipo:     
+P                      |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+P                      |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+F                      |
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{26.1}                 |
+function               |
+id                     |
+H                      |
+{26.2}                 |
+parenta                |
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |
+corcha                 |
+C                      |
+{26.5}                 |
+corchc                 |
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+function               |
+id                     |
+H                      |
+{26.2}                 |
+parenta                |
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |
+corcha                 |
+C                      |
+{26.5}                 |
+corchc                 |
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+id                     |
+H                      |
+{26.2}                 |
+parenta                |
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |
+corcha                 |
+C                      |
+{26.5}                 |
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+H                      |
+{26.2}                 |
+parenta                |
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |
+corcha                 |
+C                      |
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+T                      |
+{27}                   |
+{26.2}                 |
+parenta                |
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |
+corcha                 |
+C                      |     H          Ret:  Tipo:     
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+int                    |
+{9}                    |
+{27}                   |
+{26.2}                 |
+parenta                |
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |
+corcha                 |     T          Ret:  Tipo:     
+C                      |     H          Ret:  Tipo:     
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{9}                    |
+{27}                   |
+{26.2}                 |
+parenta                |
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |     int        Ret:  Tipo:     
+corcha                 |     T          Ret:  Tipo:     
+C                      |     H          Ret:  Tipo:     
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{27}                   |
+{26.2}                 |
+parenta                |
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |
+corcha                 |     T          Ret:  Tipo: int 
+C                      |     H          Ret:  Tipo:     
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{26.2}                 |
+parenta                |
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |
+corcha                 |
+C                      |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+parenta                |
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |
+corcha                 |
+C                      |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+A                      |
+{26.3}                 |
+parentc                |
+{26.4}                 |
+corcha                 |     parenta    Ret:  Tipo:     
+C                      |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{30}                   |
+{26.3}                 |
+parentc                |
+{26.4}                 |     A          Ret:  Tipo:     
+corcha                 |     parenta    Ret:  Tipo:     
+C                      |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{26.3}                 |
+parentc                |
+{26.4}                 |     A          Ret:  Tipo:     
+corcha                 |     parenta    Ret:  Tipo:     
+C                      |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+parentc                |
+{26.4}                 |     A          Ret:  Tipo:     
+corcha                 |     parenta    Ret:  Tipo:     
+C                      |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     parentc    Ret:       Tipo:     
+{26.4}                 |     A          Ret:  Tipo:     
+corcha                 |     parenta    Ret:  Tipo:     
+C                      |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     parentc    Ret:       Tipo:     
+                       |     A          Ret:       Tipo:     
+corcha                 |     parenta    Ret:  Tipo:     
+C                      |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     corcha     Ret:       Tipo:     
+                       |     parentc    Ret:       Tipo:     
+                       |     A          Ret:       Tipo:     
+                       |     parenta    Ret:       Tipo:     
+C                      |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     C          Ret:       Tipo:     
+                       |     corcha     Ret:       Tipo:     
+                       |     parentc    Ret:       Tipo:     
+B                      |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     B          Ret:       Tipo:     
+                       |     C          Ret:       Tipo:     
+                       |     corcha     Ret:       Tipo:     
+S                      |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     S          Ret:       Tipo:     
+return                 |     B          Ret:  Tipo:     
+X                      |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     return     Ret:       Tipo:     
+                       |     S          Ret:       Tipo:     
+                       |     B          Ret:       Tipo:     
+X                      |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     X          Ret:       Tipo:     
+                       |     return     Ret:       Tipo:     
+                       |     S          Ret:       Tipo:     
+E                      |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     E          Ret:       Tipo:     
+                       |     X          Ret:       Tipo:     
+R                      |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     R          Ret:       Tipo:     
+U                      |     E          Ret:  Tipo:     
+2                      |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+V                      |     U          Ret:  Tipo:     
+3                      |     R          Ret:  Tipo:     
+{41}                   |     E          Ret:  Tipo:     
+2                      |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+id                     |
+Z                      |     V          Ret:  Tipo:     
+{46}                   |     U          Ret:  Tipo:     
+3                      |     R          Ret:  Tipo:     
+{41}                   |     E          Ret:  Tipo:     
+2                      |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     id         Ret:       Tipo: 1   
+Z                      |     V          Ret:  Tipo:     
+{46}                   |     U          Ret:  Tipo:     
+3                      |     R          Ret:  Tipo:     
+{41}                   |     E          Ret:  Tipo:     
+2                      |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     Z          Ret:       Tipo:     
+                       |     id         Ret:       Tipo: 1   
+{53}                   |     V          Ret:  Tipo:     
+{46}                   |     U          Ret:  Tipo:     
+3                      |     R          Ret:  Tipo:     
+{41}                   |     E          Ret:  Tipo:     
+2                      |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     Z          Ret:       Tipo: void
+                       |     id         Ret:       Tipo: 1   
+                       |     V          Ret:       Tipo:     
+{46}                   |     U          Ret:  Tipo:     
+3                      |     R          Ret:  Tipo:     
+{41}                   |     E          Ret:  Tipo:     
+2                      |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     V          Ret:       Tipo: string
+                       |     U          Ret:       Tipo:     
+3                      |     R          Ret:  Tipo:     
+{41}                   |     E          Ret:  Tipo:     
+2                      |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     3          Ret:       Tipo:     
+                       |     V          Ret:       Tipo: string
+                       |     U          Ret:       Tipo:     
+{43}                   |     R          Ret:  Tipo:     
+{41}                   |     E          Ret:  Tipo:     
+2                      |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     3          Ret:       Tipo: void
+                       |     V          Ret:       Tipo: string
+                       |     U          Ret:       Tipo:     
+                       |     R          Ret:       Tipo:     
+{41}                   |     E          Ret:  Tipo:     
+2                      |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     U          Ret:       Tipo: string
+                       |     R          Ret:       Tipo:     
+                       |     E          Ret:       Tipo:     
+2                      |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     2          Ret:       Tipo:     
+                       |     U          Ret:       Tipo: string
+                       |     R          Ret:       Tipo:     
+                       |     E          Ret:       Tipo:     
+{38}                   |     X          Ret:  Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     2          Ret:       Tipo: void
+                       |     U          Ret:       Tipo: string
+                       |     R          Ret:       Tipo:     
+                       |     E          Ret:       Tipo:     
+                       |     X          Ret:       Tipo:     
+{36}                   |     return     Ret:  Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     R          Ret:       Tipo: string
+                       |     E          Ret:       Tipo:     
+                       |     X          Ret:       Tipo:     
+                       |     return     Ret:       Tipo:     
+1                      |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     1          Ret:       Tipo:     
+                       |     R          Ret:       Tipo: string
+                       |     E          Ret:       Tipo:     
+                       |     X          Ret:       Tipo:     
+                       |     return     Ret:       Tipo:     
+{35}                   |     S          Ret:  Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     1          Ret:       Tipo: void
+                       |     R          Ret:       Tipo: string
+                       |     E          Ret:       Tipo:     
+                       |     X          Ret:       Tipo:     
+                       |     return     Ret:       Tipo:     
+                       |     S          Ret:       Tipo:     
+{33}                   |     B          Ret:  Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     E          Ret:       Tipo: string
+                       |     X          Ret:       Tipo:     
+                       |     return     Ret:       Tipo:     
+                       |     S          Ret:       Tipo:     
+                       |     B          Ret:       Tipo:     
+{18}                   |     C          Ret:  Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     X          Ret:       Tipo: string
+                       |     return     Ret:       Tipo:     
+                       |     S          Ret:       Tipo:     
+                       |     B          Ret:       Tipo:     
+                       |     C          Ret:       Tipo:     
+pyc                    |     corcha     Ret:  Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     pyc        Ret:       Tipo:     
+                       |     X          Ret:       Tipo: string
+                       |     return     Ret:       Tipo:     
+                       |     S          Ret:       Tipo:     
+                       |     B          Ret:       Tipo:     
+                       |     C          Ret:       Tipo:     
+                       |     corcha     Ret:       Tipo:     
+{15}                   |     parentc    Ret:  Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     S          Ret: string Tipo:     
+                       |     B          Ret:       Tipo:     
+                       |     C          Ret:       Tipo:     
+                       |     corcha     Ret:       Tipo:     
+                       |     parentc    Ret:       Tipo:     
+{7}                    |     A          Ret:  Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     B          Ret: string Tipo:     
+                       |     C          Ret:       Tipo:     
+                       |     corcha     Ret:       Tipo:     
+                       |     parentc    Ret:       Tipo:     
+                       |     A          Ret:       Tipo:     
+C                      |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     C          Ret:       Tipo:     
+                       |     B          Ret: string Tipo:     
+                       |     C          Ret:       Tipo:     
+                       |     corcha     Ret:       Tipo:     
+                       |     parentc    Ret:       Tipo:     
+                       |     A          Ret:       Tipo:     
+{21}                   |     parenta    Ret:  Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     C          Ret: void  Tipo:     
+                       |     B          Ret: string Tipo:     
+                       |     C          Ret:       Tipo:     
+                       |     corcha     Ret:       Tipo:     
+                       |     parentc    Ret:       Tipo:     
+                       |     A          Ret:       Tipo:     
+                       |     parenta    Ret:       Tipo:     
+{20}                   |     H          Ret:  Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     C          Ret: string Tipo:     
+                       |     corcha     Ret:       Tipo:     
+                       |     parentc    Ret:       Tipo:     
+                       |     A          Ret:       Tipo:     
+                       |     parenta    Ret:       Tipo:     
+                       |     H          Ret:       Tipo: int 
+{26.5}                 |     id         Ret:  Tipo: 2   
+corchc                 |     function   Ret:  Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+corchc                 |
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     corchc     Ret:       Tipo:     
+{26.6}                 |     F          Ret:  Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     F          Ret:       Tipo:     
+P                      |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+B                      |     P          Ret:  Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+let                    |
+{5.1}                  |
+T                      |
+id                     |
+{5.2}                  |
+pyc                    |     B          Ret:  Tipo:     
+{5.3}                  |     P          Ret:  Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{5.1}                  |
+T                      |
+id                     |
+{5.2}                  |     let        Ret:  Tipo:     
+pyc                    |     B          Ret:  Tipo:     
+{5.3}                  |     P          Ret:  Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+T                      |
+id                     |
+{5.2}                  |     let        Ret:  Tipo:     
+pyc                    |     B          Ret:  Tipo:     
+{5.3}                  |     P          Ret:  Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+int                    |
+{9}                    |
+id                     |     T          Ret:  Tipo:     
+{5.2}                  |     let        Ret:  Tipo:     
+pyc                    |     B          Ret:  Tipo:     
+{5.3}                  |     P          Ret:  Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+{9}                    |     int        Ret:  Tipo:     
+id                     |     T          Ret:  Tipo:     
+{5.2}                  |     let        Ret:  Tipo:     
+pyc                    |     B          Ret:  Tipo:     
+{5.3}                  |     P          Ret:  Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+id                     |     T          Ret:  Tipo: int 
+{5.2}                  |     let        Ret:  Tipo:     
+pyc                    |     B          Ret:  Tipo:     
+{5.3}                  |     P          Ret:  Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     id         Ret:       Tipo: 3   
+                       |     T          Ret:       Tipo: int 
+{5.2}                  |     let        Ret:  Tipo:     
+pyc                    |     B          Ret:  Tipo:     
+{5.3}                  |     P          Ret:  Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+pyc                    |     B          Ret: void Tipo:     
+{5.3}                  |     P          Ret:  Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     pyc        Ret:       Tipo:     
+                       |     B          Ret: void  Tipo:     
+{5.3}                  |     P          Ret:  Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     B          Ret: void  Tipo:     
+                       |     P          Ret:       Tipo:     
+P                      |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     P          Ret:       Tipo:     
+                       |     B          Ret: void  Tipo:     
+eof                    |     P          Ret:  Tipo:     
+{3}                    |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     eof        Ret:       Tipo:     
+                       |     P          Ret:       Tipo:     
+                       |     B          Ret: void  Tipo:     
+                       |     P          Ret:       Tipo:     
+{3}                    |     F          Ret:  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     P          Ret:       Tipo:     
+                       |     B          Ret: void  Tipo:     
+                       |     P          Ret:       Tipo:     
+                       |     F          Ret:       Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     P          Ret:       Tipo:     
+                       |     F          Ret:       Tipo:     
+                       |     P          Ret:       Tipo:     
+{2}                    |     B          Ret: void Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     P          Ret:       Tipo:     
+                       |     B          Ret: void  Tipo:     
+{1}                    |     P          Ret:  Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+                       |     P          Ret:       Tipo:     
+{1}                    |     B          Ret: void Tipo:     
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------
+--------------------------------------------
+  Principal                Aux
+--------------------------------------------
+$                      |     P          Ret:  Tipo:     
+--------------------------------------------

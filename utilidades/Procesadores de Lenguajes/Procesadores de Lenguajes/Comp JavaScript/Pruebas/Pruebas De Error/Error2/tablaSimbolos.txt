@@ -1,0 +1,8 @@
+Tabla Programa Principal # 1:
+* LEXEMA : 'String'
+* LEXEMA : 'b'
+* LEXEMA : 'a'
+* LEXEMA : 'int'
+* LEXEMA : 'operacion'
+* LEXEMA : 'num1'
+* LEXEMA : 'num2'

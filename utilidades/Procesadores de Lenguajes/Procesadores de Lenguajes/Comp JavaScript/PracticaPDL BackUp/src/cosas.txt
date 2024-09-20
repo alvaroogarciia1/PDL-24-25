@@ -1,0 +1,24 @@
+if(AL.getPila().peek().getNumeroTabla() != 0){ //si estamos dentro de una funcion
+                if(!AL.getPila().elementAt(0).buscar(id) && aux.peek().dcha.equals("entero")){
+                    AL.getPila().elementAt(0).anadir(id);
+                    AL.getPila().elementAt(0).simbolos.get(AL.getPila().elementAt(0).simbolos.size()-1).setTipo("entero");
+                    AL.getPila().elementAt(0).simbolos.get(AL.getPila().elementAt(0).simbolos.size()-1).setDesp(AL.getPila().elementAt(0).getDespl()+2);
+                } else {
+                    System.out.println("Las variables sin declaracion solo pueden ser enteros");
+                    return;
+                }
+                String tipo = AL.getPila().elementAt(0).simbolos.get(AL.getPila().elementAt(0).getPos(id)).getTipo();
+                if(tipo.equals("string")) AL.getPila().peek().setDespl(AL.getPila().peek().getDespl()-64); // Actulizar desplazamiento de la tabla
+                if(tipo.equals("entero")) AL.getPila().peek().setDespl(AL.getPila().peek().getDespl()-2); // Actulizar desplazamiento de la tabla
+                if(tipo.equals("boolean")) AL.getPila().peek().setDespl(AL.getPila().peek().getDespl()-1); // Actulizar desplazamiento de la tabla
+                AL.getPila().peek().eliminar(id);
+            } else {
+                if(!AL.getPila().peek().buscar(id) && aux.peek().dcha.equals("entero")){
+                    AL.getPila().elementAt(0).anadir(id);
+                    AL.getPila().elementAt(0).simbolos.get(AL.getPila().elementAt(0).simbolos.size()-1).setTipo("entero");
+                    AL.getPila().elementAt(0).simbolos.get(AL.getPila().elementAt(0).simbolos.size()-1).setDesp(AL.getPila().elementAt(0).getDespl()+2);
+                } else {
+                    System.out.println("Las variables sin declaracion solo pueden ser enteros");
+                    AL.getPila().peek().eliminar(id);
+                    return;
+                }

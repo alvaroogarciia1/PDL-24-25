@@ -1,0 +1,6 @@
+Tabla de Simbolos Principal #1:
+ * LEXEMA : 'texto' 
+ * LEXEMA : 'pideTexto' 
+ * LEXEMA : 'alert' 
+ * LEXEMA : 'msg' 
+ * LEXEMA : 'textoAux' 

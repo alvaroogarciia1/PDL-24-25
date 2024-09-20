@@ -1,0 +1,18 @@
+
+S(0) -> {(11)|}(12)|EOF(13)|(14),|(15);|(16)+|(17)-|(18)(|(19))|lA|dB|=C|!D|&E|/F|"G|'|H'|del S
+
+A(1) -> lA | dI | λ 		// PR
+B(2) -> dB | λ 			// ENTERO
+C(3) -> = | λ 			// IGUAL, IGUIGU
+D(4) -> = 			// DESIGU
+E(5) -> & 			// AND
+F(6) -> /J 			// Inicio comment
+G(7) -> cG |" 			// CADENA
+H(8) -> = 			// OLOG
+I(9) -> dI| lI | λ 		// ID
+J(10) -> cJ | del S 		// Fin comment
+
+del = delimitador 
+l = letras
+d = digitos 
+c = cualquier caracter - {del}

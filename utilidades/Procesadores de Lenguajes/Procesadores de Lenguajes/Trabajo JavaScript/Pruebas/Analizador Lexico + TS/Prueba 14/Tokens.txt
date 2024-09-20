@@ -1,0 +1,155 @@
+<LET, >
+<INT, >
+<ID , 0 >
+<PYC, >
+<LET, >
+<STRING, >
+<ID , 1 >
+<PYC, >
+<LET, >
+<BOOLEAN, >
+<ID , 2 >
+<PYC, >
+<LET, >
+<INT, >
+<ID , 3 >
+<PYC, >
+<FUNCTION, >
+<ID , 4 >
+<PARENTA, >
+<PARENTC, >
+<CORCHA, >
+<LET, >
+<INT, >
+<ID , 5 >
+<PYC, >
+<LET, >
+<INT, >
+<ID , 6 >
+<PYC, >
+<ID , 2 >
+<IGUAL, >
+<ID , 5 >
+<IGUIGU, >
+<ID , 6 >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 7 >
+<STRING, >
+<PARENTA, >
+<STRING, >
+<ID , 8 >
+<COMA, >
+<INT, >
+<ID , 9 >
+<COMA, >
+<BOOLEAN, >
+<ID , 10 >
+<PARENTC, >
+<CORCHA, >
+<ID , 9 >
+<IGUAL, >
+<ENTERO , 33 >
+<SUMA, >
+<PARENTA, >
+<ID , 9 >
+<RESTA, >
+<ID , 0 >
+<PARENTC, >
+<PYC, >
+<RETURN, >
+<ID , 8 >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 11 >
+<PARENTA, >
+<INT, >
+<ID , 12 >
+<COMA, >
+<BOOLEAN, >
+<ID , 10 >
+<PARENTC, >
+<CORCHA, >
+<FOR, >
+<PARENTA, >
+<ID , 12 >
+<IGUAL, >
+<ENTERO , 1 >
+<PYC, >
+<ID , 10 >
+<PYC, >
+<PARENTC, >
+<CORCHA, >
+<PRINT, >
+<PARENTA, >
+<ENTERO , 88 >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 13 >
+<PARENTA, >
+<INT, >
+<ID , 9 >
+<COMA, >
+<BOOLEAN, >
+<ID , 12 >
+<PARENTC, >
+<CORCHA, >
+<PRINT, >
+<PARENTA, >
+<ID , 7 >
+<PARENTA, >
+<CADENA , "" >
+<COMA, >
+<ID , 9 >
+<COMA, >
+<TRUE, >
+<PARENTC, >
+<PARENTC, >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<ID , 1 >
+<PARENTC, >
+<PYC, >
+<RETURN, >
+<PYC, >
+<CORCHC, >
+<LET, >
+<INT, >
+<ID , 14 >
+<PYC, >
+<LET, >
+<BOOLEAN, >
+<ID , 15 >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 14 >
+<PARENTC, >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<ID , 14 >
+<PARENTC, >
+<PYC, >
+<ID , 14 >
+<IGUAL, >
+<ID , 14 >
+<PYC, >
+<ID , 15 >
+<OLOG, >
+<ID , 15 >
+<PYC, >
+<ID , 13 >
+<PARENTA, >
+<ID , 14 >
+<COMA, >
+<ID , 15 >
+<PARENTC, >
+<PYC, >
+<EOF, >

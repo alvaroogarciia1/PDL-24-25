@@ -1,0 +1,11 @@
+Tabla de Simbolos Principal #1:
+ * LEXEMA : 'x' 
+ * LEXEMA : 'xx' 
+ * LEXEMA : 'ss' 
+ * LEXEMA : 'boolean_1' 
+ * LEXEMA : 'boolean_2' 
+ * LEXEMA : 'y' 
+ * LEXEMA : 'f1' 
+ * LEXEMA : 'b1' 
+ * LEXEMA : 'f2' 
+ * LEXEMA : 'z' 

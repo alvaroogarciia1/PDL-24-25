@@ -1,0 +1,31 @@
+Tabla de Simbolos Principal #1:
+* LEXEMA: 'texto'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 0
+* LEXEMA: 'alert'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 1
+      + TipoParam1: 'string'
+     + TipoRetorno: 'void'
+     + EtiqFuncion: 'Et1_alert'
+* LEXEMA: 'pideTexto'
+ ATRIBUTOS: 
+    + tipo: 'function' 
+     + numParam: 0
+     + TipoRetorno: 'void'
+     + EtiqFuncion: 'Et2_pideTexto'
+* LEXEMA: 'textoAux'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 64
+
+Tabla de Simbolos de la Funcion alert #2:
+* LEXEMA: 'msg'
+ ATRIBUTOS: 
+    + tipo: 'string' 
+     + despl: 0
+
+Tabla de Simbolos de la Funcion pideTexto #3:
+

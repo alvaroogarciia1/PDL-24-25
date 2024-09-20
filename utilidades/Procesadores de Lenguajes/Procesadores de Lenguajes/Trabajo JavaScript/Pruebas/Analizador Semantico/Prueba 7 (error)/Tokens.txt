@@ -1,0 +1,13 @@
+<LET, >
+<INT, >
+<ID , 0 >
+<PYC, >
+<LET, >
+<INT, >
+<ID , 1 >
+<PYC, >
+<LET, >
+<INT, >
+<ID , 0 >
+<PYC, >
+<EOF, >

@@ -1,0 +1,56 @@
+<LET, >
+<STRING, >
+<ID , 0 >
+<PYC, >
+<FUNCTION, >
+<ID , 1 >
+<PARENTA, >
+<STRING, >
+<ID , 2 >
+<PARENTC, >
+<CORCHA, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "Mensaje introducido:" >
+<PARENTC, >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<ID , 2 >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 3 >
+<PARENTA, >
+<PARENTC, >
+<CORCHA, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "Introduce un texto corto" >
+<PARENTC, >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 0 >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<ID , 3 >
+<PARENTA, >
+<PARENTC, >
+<PYC, >
+<LET, >
+<STRING, >
+<ID , 4 >
+<PYC, >
+<ID , 4 >
+<IGUAL, >
+<ID , 0 >
+<PYC, >
+<ID , 1 >
+<PARENTA, >
+<ID , 4 >
+<PARENTC, >
+<PYC, >
+<EOF, >

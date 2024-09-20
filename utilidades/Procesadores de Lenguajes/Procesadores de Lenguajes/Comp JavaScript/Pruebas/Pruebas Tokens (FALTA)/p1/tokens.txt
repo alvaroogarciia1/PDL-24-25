@@ -1,0 +1,48 @@
+<LET, >
+<STRING, >
+<texto, 0>
+<FUNCTION, >
+<pideTexto, 1>
+<PARENTABRI, >
+<PARENTCERR, >
+<CORCHABRI, >
+<ALERT, >
+<PARENTABRI, >
+<CADENA, "Introduce un texto">
+<PARENTCERR, >
+<punt, 2>
+<INPUT, >
+<PARENTABRI, >
+La variable ya existe. Linea: 5
+<punt, 2>
+<CORCHCERR, >
+<FUNCTION, >
+<print, 2>
+<PARENTABRI, >
+<STRING, >
+<msg, 3>
+<CORCHABRI, >
+<ALERT, >
+<PARENTABRI, >
+<CADENA, "Mensage introducido:">
+<PARENTCERR, >
+<punt, 2>
+<ALERT, >
+<PARENTABRI, >
+La variable ya existe. Linea: 10
+<punt, 2>
+<CORCHCERR, >
+La variable ya existe. Linea: 12
+<PARENTCERR, >
+<punt, 2>
+<LET, >
+<STRING, >
+<textoAux, 4>
+La variable ya existe. Linea: 14
+<opasig, 1>
+La variable ya existe. Linea: 14
+La variable ya existe. Linea: 15
+<PARENTABRI, >
+La variable ya existe. Linea: 15
+<punt, 2>
+<EOF, >

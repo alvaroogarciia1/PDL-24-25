@@ -1,0 +1,64 @@
+<LET, >
+<INT, >
+<ID , 0 >
+<PYC, >
+<LET, >
+<INT, >
+<ID , 1 >
+<PYC, >
+<LET, >
+<INT, >
+<INT, >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "Introduce el primer operando" >
+<PARENTC, >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 0 >
+<PARENTC, >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<CADENA , "Introduce el segundo operando" >
+<PARENTC, >
+<PYC, >
+<INPUT, >
+<PARENTA, >
+<ID , 1 >
+<PARENTC, >
+<PYC, >
+<FUNCTION, >
+<INT, >
+<ID , 2 >
+<PARENTA, >
+<INT, >
+<ID , 3 >
+<COMA, >
+<INT, >
+<ID , 4 >
+<PARENTC, >
+<CORCHA, >
+<RETURN, >
+<ID , 3 >
+<RESTA, >
+<ID , 4 >
+<PYC, >
+<CORCHC, >
+<INT, >
+<IGUAL, >
+<ENTERO , 0 >
+<PYC, >
+<PRINT, >
+<PARENTA, >
+<ID , 2 >
+<PARENTA, >
+<ID , 0 >
+<COMA, >
+<ID , 1 >
+<PARENTC, >
+<PARENTC, >
+<PYC, >
+<EOF, >

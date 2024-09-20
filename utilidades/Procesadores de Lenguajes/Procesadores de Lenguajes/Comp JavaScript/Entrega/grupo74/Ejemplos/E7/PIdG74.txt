@@ -1,0 +1,34 @@
+
+
+let number number1;
+let string cadena;input(cadena);
+let boolean logico1;let boolean logico2;
+
+number1 = 873;
+
+number2 = 378;
+if (logico1 || logico2) cadena = "hello";
+
+function string ff(string ss)
+{
+	global = 33;
+	logico1 =  logico2;
+	if (logico1) ss = ff (cadena);
+	return ss;
+}
+		
+function string funcion (string logico2)
+{	let number var;
+
+  switch (number1){
+	case 0:	logico1 = number1 == number2;break;
+	case 8888: alert(1234);
+	case 3333: logico2="";
+  }
+  
+  return logico2;
+}
+
+alert(cadena);
+cadena = ((ff(funcion(cadena))));
+

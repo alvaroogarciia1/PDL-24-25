@@ -1,0 +1,129 @@
+<LET, >
+<INT, >
+<ID , 0 >
+<PYC, >
+<LET, >
+<INT, >
+<ID , 1 >
+<PYC, >
+<LET, >
+<STRING, >
+<ID , 2 >
+<PYC, >
+<LET, >
+<BOOLEAN, >
+<ID , 3 >
+<PYC, >
+<LET, >
+<BOOLEAN, >
+<ID , 4 >
+<PYC, >
+<LET, >
+<INT, >
+<ID , 5 >
+<PYC, >
+<FUNCTION, >
+<ID , 6 >
+<INT, >
+<PARENTA, >
+<INT, >
+<ID , 6 >
+<COMA, >
+<BOOLEAN, >
+<ID , 7 >
+<PARENTC, >
+<CORCHA, >
+<PRINT, >
+<PARENTA, >
+<ID , 2 >
+<PARENTC, >
+<PYC, >
+<ID , 0 >
+<IGUAL, >
+<ID , 1 >
+<RESTA, >
+<ID , 6 >
+<PYC, >
+<ID , 3 >
+<IGUAL, >
+<ID , 3 >
+<AND, >
+<ID , 4 >
+<PYC, >
+<RETURN, >
+<PARENTA, >
+<ID , 0 >
+<PARENTC, >
+<PYC, >
+<CORCHC, >
+<FUNCTION, >
+<ID , 8 >
+<BOOLEAN, >
+<PARENTA, >
+<INT, >
+<ID , 8 >
+<COMA, >
+<BOOLEAN, >
+<ID , 7 >
+<PARENTC, >
+<CORCHA, >
+<PRINT, >
+<PARENTA, >
+<PARENTA, >
+<ENTERO , 4 >
+<RESTA, >
+<ENTERO , 5 >
+<RESTA, >
+<ENTERO , 77 >
+<SUMA, >
+<PARENTA, >
+<ENTERO , 88 >
+<SUMA, >
+<ID , 8 >
+<PARENTC, >
+<PARENTC, >
+<PARENTC, >
+<PYC, >
+<RETURN, >
+<ID , 3 >
+<AND, >
+<ID , 4 >
+<AND, >
+<ID , 7 >
+<PYC, >
+<CORCHC, >
+<ID , 0 >
+<IGUAL, >
+<ID , 0 >
+<SUMA, >
+<ENTERO , 6 >
+<RESTA, >
+<ID , 9 >
+<RESTA, >
+<ENTERO , 1 >
+<RESTA, >
+<PARENTA, >
+<ENTERO , 2 >
+<SUMA, >
+<ID , 5 >
+<RESTA, >
+<ENTERO , 6 >
+<PARENTC, >
+<PYC, >
+<ID , 4 >
+<IGUAL, >
+<PARENTA, >
+<ID , 8 >
+<PARENTA, >
+<ID , 6 >
+<PARENTA, >
+<ID , 0 >
+<COMA, >
+<ID , 3 >
+<PARENTC, >
+<COMA, >
+<ID , 4 >
+<PARENTC, >
+<PARENTC, >
+<PYC, >
+<EOF, >
