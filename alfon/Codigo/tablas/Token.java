@@ -35,11 +35,13 @@ public class Token {
 	public void setAttribute(String attribute) {
 		this.atributo = attribute;
 	}
-
+	
 	public String toString() {
 		if (this.atributo == null) {
 			return "<" + this.id + ", >";
         }
 		return "<" + this.id + ", " + this.atributo + ">";
     }
+	
+	
 }

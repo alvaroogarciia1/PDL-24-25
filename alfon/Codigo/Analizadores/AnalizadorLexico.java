@@ -376,6 +376,7 @@ public class AnalizadorLexico {
 					return null;
 			}
 		}
+
 		return token;
 	}
 
