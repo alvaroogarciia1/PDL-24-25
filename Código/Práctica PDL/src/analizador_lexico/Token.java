@@ -1,7 +1,7 @@
 package analizador_lexico;
 
 /**
- * Clase para modelizar Tokens.
+ * Clase para modelar Tokens.
  */
 public class Token {
 
@@ -72,9 +72,9 @@ public class Token {
     }
 
     /**
-     * Devuelve una representación en cadena del Token.
+     * Devuelve en forma de cadena (con un formato establecido) el Token.
      *
-     * @return Una cadena con el código y el atributo del Token.
+     * @return El Token en forma de cadena.
      */
     @Override
     public String toString() {
