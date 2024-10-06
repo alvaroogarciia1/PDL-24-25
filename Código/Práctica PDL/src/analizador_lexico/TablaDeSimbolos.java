@@ -162,10 +162,12 @@ public class TablaDeSimbolos {
         entradaTS.setDesplazamiento(desplazamiento);
         entradaTS.setTipoDevuelto(tipoDevuelto);
         entradaTS.setEtiqueta(etiqueta);
-        for (Entry<String, Integer> e : parametros.entrySet()) {
-            String tipoP = e.getKey();
-            Integer modoP = e.getValue();
-            entradaTS.setParametros(tipoP, modoP);
+        if (parametros != null) {
+            for (Entry<String, Integer> e : parametros.entrySet()) {
+                String tipoP = e.getKey();
+                Integer modoP = e.getValue();
+                entradaTS.setParametros(tipoP, modoP);
+            }
         }
     }
 
@@ -200,18 +202,8 @@ public class TablaDeSimbolos {
      * @return La entrada en forma de cadena si existe, y blanco e.o.c.
      */
     public String consultarEntradaTablaDeSimbolos(String lexema, String tipo) {
-        String r = "";
-        EntradaTS re = null, aux = new EntradaTS(lexema, tipo), eTS = null;
-        for (Entry<Integer, EntradaTS> t : tabla.entrySet()) {
-            eTS = t.getValue();
-            if (eTS.equals(aux)) {
-                re = eTS;
-                aux = null;
-                r = re.toString();
-                break;
-            }
-        }
-        return r;
+        return getEntradaTablaDeSimbolos(lexema, tipo) == null ? ""
+                : getEntradaTablaDeSimbolos(lexema, tipo).toString();
     }
 
     /**
