@@ -1,9 +1,9 @@
 let number a;
 let number b;
 let number int;
-alert ("Introduce el primer operando");
+alert ('Introduce el primer operando');
 input (a);
-alert ("Introduce el segundo operando");
+alert ('Introduce el segundo operando');
 input (b);
 function number operacion (number num1, number num2)
 {

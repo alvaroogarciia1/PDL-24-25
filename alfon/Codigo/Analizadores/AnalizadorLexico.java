@@ -121,22 +121,24 @@ public class AnalizadorLexico {
 						estado = 4;
 						lexema = lexema + (char) caracter;
 						leer();
-					} else if (caracter == '/') {
+					} else if (caracter == '/') { // SOLO COMENTARIOS
 						estado = 1;
 						leer();
-					} else if (caracter == '"') {
+					} else if (caracter == '\'') {
 						lexema = lexema + (char) caracter;
 						estado = 6;
 						leer();
 					} else if (caracter == '=') {
 						estado = 10;
 						leer();
-					} else if (caracter == '|') {
+					} else if (caracter == '&') {
 						estado = 13;
 						leer();
+					} else if (caracter == '*') {
+						estado = 14;
+						leer();
 					} else if (caracter == ';' || caracter == ',' || caracter == '(' || caracter == ')'
-							|| caracter == '{' || caracter == '}' || caracter == ':' || caracter == '+'
-							|| caracter == '-') {
+							|| caracter == '{' || caracter == '}' || caracter == ':' || caracter == '+') {
 						estado = 16;
 					} else {
 						gestorErrores.producirError(2, linea, "" + (char) caracter);
@@ -182,7 +184,7 @@ public class AnalizadorLexico {
 					genToken = true;
 					break;
 				case 6:
-					if (caracter == '"') {
+					if (caracter == '\'') {
 						lexema = lexema + (char) caracter;
 						estado = 7;
 						leer();
@@ -314,7 +316,7 @@ public class AnalizadorLexico {
 					}
 					break;
 				case 11:
-					token = new Token("IGUALIGUAL");
+					token = new Token("IGUIGU");
 					genToken = true;
 					break;
 				case 12:
@@ -322,10 +324,7 @@ public class AnalizadorLexico {
 					genToken = true;
 					break;
 				case 13:
-					if (caracter == '=') {
-						estado = 14;
-						leer();
-					} else if (caracter == '|') {
+					if (caracter == '&') {
 						estado = 15;
 						leer();
 					} else {
@@ -333,43 +332,47 @@ public class AnalizadorLexico {
 					}
 					break;
 				case 14:
-					token = new Token("ORIGUAL");
-					genToken = true;
+					if (caracter == '*'){
+						estado = 21;
+						leer();
+					}
 					break;
 				case 15:
-					token = new Token("OR");
+					token = new Token("AND");
 					genToken = true;
 					break;
 				case 16:
 					if (caracter == ';') {
-						token = new Token("PUNTOYCOMA");
+						token = new Token("PUNTYCOM");
 						genToken = true;
 					} else if (caracter == ',') {
 						token = new Token("COMA");
 						genToken = true;
 					} else if (caracter == '(') {
-						token = new Token("PARENTA");
+						token = new Token("PARENTABRE");
 						genToken = true;
 					} else if (caracter == ')') {
-						token = new Token("PARENTC");
+						token = new Token("PARENTCIERRA");
 						genToken = true;
 					} else if (caracter == '{') {
-						token = new Token("CORCHA");
+						token = new Token("CORCHABRE");
 						genToken = true;
 					} else if (caracter == '}') {
-						token = new Token("CORCHC");
+						token = new Token("CORCHCIERRA");
 						genToken = true;
 					} else if (caracter == ':') {
 						token = new Token("DOSPUNTOS");
 						genToken = true;
 					} else if (caracter == '+') {
-						token = new Token("MAS");
+						token = new Token("SUMA");
 						genToken = true;
-					} else if (caracter == '-') {
-						token = new Token("MENOS");
-						genToken = true;
+					
 					}
 					leer();
+					break;
+				case 21:
+					token = new Token("ASIGMULT");
+					genToken = true;
 					break;
 				default:
 					genToken = true;
