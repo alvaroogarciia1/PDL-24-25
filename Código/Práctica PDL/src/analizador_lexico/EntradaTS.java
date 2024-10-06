@@ -1,10 +1,11 @@
 package analizador_lexico;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
 /**
- * Clase para modelar las entradas de la tabla de símbolos.
+ * Clase para modelar las entradas de la Tabla de Símbolos.
  */
 public class EntradaTS {
 
@@ -49,6 +50,7 @@ public class EntradaTS {
     public EntradaTS(String lexema, String tipo) {
         this.lexema = lexema;
         this.tipo = tipo;
+        parametros = new HashMap<String, Integer>();
     }
 
     /**
@@ -120,7 +122,7 @@ public class EntradaTS {
      * @param tipo El nuevo tipo del parámetro.
      * @param modo El nuevo modo del parámetro.
      */
-    public void setParametros(String tipo, Integer modo){
+    public void setParametros(String tipo, Integer modo) {
         this.parametros.put(tipo, modo);
     }
 
@@ -161,28 +163,53 @@ public class EntradaTS {
     }
 
     /**
-     * Devuelve en forma de cadena (con un formato establecido) las entradas de la tabla de símbolos.
+     * Devuelve en forma de cadena (con un formato establecido) las entradas de la
+     * Tabla de Símbolos.
      * 
      * @return La entrada en forma de cadena.
      */
     @Override
-    public String toString(){
-        int i=1;
+    public String toString() {
+        int i = 1;
         String r = "* LEXEMA : '" + lexema + "'\n ATRIBUTOS:\n + tipo: '" + tipo;
-        /*Se asume que el tamaño del atributo de esta clase "parametros"
-        * es > 1 cuando el tipo es "funcion" */
-        if(tipo.equals("funcion")){
-            r+="'\n  + numParam: " + parametros.size();
-            for(Entry<String, Integer> e:parametros.entrySet()){
+        /*
+         * Se asume que el tamaño del atributo de esta clase "parametros"
+         * es > 1 cuando el tipo es "funcion"
+         */
+        if (tipo.equals("funcion")) {
+            r += "'\n  + numParam: " + parametros.size();
+            for (Entry<String, Integer> e : parametros.entrySet()) {
                 String tipoP = e.getKey();
                 Integer modoP = e.getValue();
-                r+="\n   + TipoParam" + i + " : '" + tipoP + "\n    + ModoParam" + i + " : " + modoP;
+                r += "\n   + TipoParam" + i + " : '" + tipoP + "\n    + ModoParam" + i + " : " + modoP;
                 i++;
             }
-        }else{
-            r+= "'\n Despl: " + desplazamiento;
+        } else {
+            r += "'\n + despl: " + desplazamiento;
         }
         return r;
+    }
+
+    /**
+     * Compara este objeto EntradaTS con el objeto especificado para determinar si
+     * son
+     * iguales. Dos objetos EntradaTS se consideran iguales si tienen el mismo
+     * {@code lexema} y el mismo {@code tipo}.
+     *
+     * @param obj El objeto a comparar con esta EntradaTS.
+     * @return {@code true} si los objetos son iguales; {@code false} en caso
+     *         contrario.
+     */
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof EntradaTS)) {
+            return false;
+        }
+        EntradaTS other = (EntradaTS) obj;
+        return lexema.equals(other.lexema) && tipo.equals(other.tipo);
     }
 
 }

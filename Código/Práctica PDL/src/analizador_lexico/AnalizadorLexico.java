@@ -1,7 +1,7 @@
 package analizador_lexico;
 
 /**
- * Clase para modelizar el analizador léxico.
+ * Clase para modelar el Analizador Léxico.
  */
 public class AnalizadorLexico {
     

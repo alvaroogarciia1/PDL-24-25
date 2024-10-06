@@ -1,7 +1,7 @@
 package analizador_lexico;
 
 /**
- * Clase para modelar Tokens.
+ * Clase para modelar los Tokens.
  */
 public class Token {
 
@@ -84,6 +84,28 @@ public class Token {
         }
         r += (", " + atributo + ">");
         return r;
+    }
+
+    /**
+     * Compara este objeto Token con el objeto especificado para determinar si son
+     * iguales. Dos objetos Token se consideran iguales si tienen el mismo
+     * {@code codigoToken} y el mismo {@code atributo}.
+     *
+     * @param obj El objeto a comparar con este Token.
+     * @return {@code true} si los objetos son iguales; {@code false} en caso
+     *         contrario.
+     */
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof Token)) {
+            return false;
+        }
+        Token other = (Token) obj;
+        return codigoToken.equals(other.codigoToken) &&
+                (atributo == null ? other.atributo == null : atributo.equals(other.atributo));
     }
 
     /**
