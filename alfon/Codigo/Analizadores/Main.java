@@ -1,14 +1,13 @@
 package Analizadores;
 
 import java.io.*;
-
 import tablas.Token;
 
 public class Main {
     
     public static void main(String[] args) throws IOException {
         
-        File codigoFuente = new File("C:\\Users\\amari\\OneDrive\\Documentos\\GitHub\\PDL-24-25\\alfon\\Codigo\\Analizadores\\prueba.txt");
+        File codigoFuente = new File("C:\\Users\\amari\\OneDrive\\Documentos\\GitHub\\PDL-24-25\\alfon\\Codigo\\Analizadores\\prueba3.txt");
         GestorErrores gestorErrores = new GestorErrores("C:\\Users\\amari\\OneDrive\\Documentos\\GitHub\\PDL-24-25\\alfon\\Codigo\\Analizadores\\errores.txt");
         
         // Instanciar el Analizador Léxico

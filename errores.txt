@@ -1,2 +1,2 @@
 Errores:
-Error 2. Error en el caracter: - Linea: 10
+Error 2. Error en el caracter: | Linea: 8

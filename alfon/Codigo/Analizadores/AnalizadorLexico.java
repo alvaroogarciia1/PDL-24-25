@@ -332,7 +332,7 @@ public class AnalizadorLexico {
 					}
 					break;
 				case 14:
-					if (caracter == '*'){
+					if (caracter == '='){
 						estado = 21;
 						leer();
 					}
