@@ -1,13 +1,13 @@
 package Analizadores;
 
-import java.io.*;
 import java.util.*;
+import java.io.*;
 import tablas.*;
 
 public class AnalizadorLexico {
 
 	static FileReader fr;
-	private BufferedWriter writer; // NUEVO: definimos el fichero donde se escribiran los tokens
+	private BufferedWriter writer;  // Atributo para escribir los tokens en el archivo
 	private int caracter;
 	private int linea;
 	private TablaPalabrasR tpr;
@@ -22,7 +22,6 @@ public class AnalizadorLexico {
 	static private int numeroTabla = 0;
 	static int posId = 0;
 	GestorErrores gestorErrores;
-	
 
 	public AnalizadorLexico(File fileName, GestorErrores gestorErrores) {
 		pts = new Stack<TablaSimbolos>();
@@ -39,18 +38,23 @@ public class AnalizadorLexico {
 
 		try {
 			fr = new FileReader(fileName);
-			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-		} 
+		}
 
 		try {
-            File archivoTokens = new File("Analizadores/tokens.txt");  // Se crea en la misma carpeta
-            writer = new BufferedWriter(new FileWriter(archivoTokens)); // NUEVO: creamos el fichero donde se escribiran los tokens
+            fr = new FileReader(fileName);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        
+        // Inicializar el BufferedWriter para escribir los tokens en tokens.txt
+        try {
+            File archivoTokens = new File("tokens.txt");  // Se crea en la misma carpeta
+            writer = new BufferedWriter(new FileWriter(archivoTokens));
         } catch (IOException e) {
             System.err.println("Error al crear el archivo tokens.txt: " + e.getMessage());
         }
-    
 	}
 
 	public Stack<TablaSimbolos> getPila() {
@@ -124,7 +128,6 @@ public class AnalizadorLexico {
 						leer();
 					} else if (caracter == -1) {
 						token = new Token("EOF");
-						//cerrarArchivoTokens();
 						genToken = true;
 					} else if (Character.isLetter(caracter)) {
 						estado = 8;
@@ -261,7 +264,7 @@ public class AnalizadorLexico {
 						} else if (esFunction) {
 							System.out.println(pts.elementAt(0).simbolos.get(11).getLexema());
 							System.out.println(lexema);
-							if (!pts.elementAt(0).buscar(lexema)) {
+;							if (!pts.elementAt(0).buscar(lexema)) {
 								gestorErrores.producirError(5, linea, "");
 							} else {
 								token = new Token("ID", pts.elementAt(0).getPos(lexema));
@@ -400,14 +403,13 @@ public class AnalizadorLexico {
                 writer.write(token.toString());
                 writer.newLine();
             }
-			
 		}
 
 		return token;
 	}
 
-    // Cerrar el BufferedWriter cuando se termine el análisis léxico
-    public void cerrarArchivoTokens() {
+	// Cerrar el BufferedWriter cuando se termine el análisis léxico
+	public void cerrarArchivoTokens() {
         try {
             if (writer != null) {
                 writer.close();
@@ -416,7 +418,6 @@ public class AnalizadorLexico {
             System.err.println("Error al cerrar el archivo tokens.txt: " + e.getMessage());
         }
     }
-
 
 	public int getCaracter() {
 		return this.caracter;
@@ -431,8 +432,4 @@ public class AnalizadorLexico {
 			gestorErrores.producirError(9, linea, "");
 		}
 	}
-
-
-	
 }
-
