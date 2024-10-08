@@ -21,9 +21,9 @@ public class AnalizadorLexico {
 	private String lexemaAsignacion;
 	static private int numeroTabla = 0;
 	static int posId = 0;
-	GestorErrores gestorErrores;
+	//GestorErrores gestorErrores;
 
-	public AnalizadorLexico(File fileName, GestorErrores gestorErrores) {
+	public AnalizadorLexico(File fileName/*, GestorErrores gestorErrores*/) {
 		pts = new Stack<TablaSimbolos>();
 		pts.push(new TablaSimbolos("Tabla Programa Principal", numeroTabla++));
 		this.linea = 1;
@@ -34,7 +34,7 @@ public class AnalizadorLexico {
 		esFunction = false;
 		esSentencia = false;
 		parametros = false;
-		this.gestorErrores = gestorErrores;
+		//this.gestorErrores = gestorErrores;
 
 		try {
 			fr = new FileReader(fileName);
@@ -116,9 +116,9 @@ public class AnalizadorLexico {
 				pts.elementAt(0).anadir(lexema, posId++);
 				token = new Token("ID", pts.elementAt(0).getPos(lexema));
 				lexemaAsignacion = null;
-			} else if (lexemaAsignacion != null) {
+			} /*else if (lexemaAsignacion != null) {
 				gestorErrores.producirError(1, linea, "");
-			}
+			}*/
 			if(caracter != '(' || !esFunction){
 				esFunction = false;
 			}
@@ -157,7 +157,7 @@ public class AnalizadorLexico {
 							|| caracter == '{' || caracter == '}' || caracter == ':' || caracter == '+') {
 						estado = 16;
 					} else {
-						gestorErrores.producirError(2, linea, "" + (char) caracter);
+						/*gestorErrores.producirError(2, linea, "" + (char) caracter);*/
 						estado = 0;
 						leer();
 					}
@@ -198,7 +198,7 @@ public class AnalizadorLexico {
 						valor = Integer.parseInt(lexema);
 						token = new Token("ENTERO", valor);
 					} catch (Exception e) {
-						gestorErrores.producirError(3, linea, "");
+						/*gestorErrores.producirError(3, linea, "");*/
 					}
 					genToken = true;
 					break;
@@ -211,7 +211,7 @@ public class AnalizadorLexico {
 						lexema = lexema + (char) caracter;
 						leer();
 					} else {
-						gestorErrores.producirError(4, linea, "");
+						/*gestorErrores.producirError(4, linea, "");*/
 					}
 					break;
 				case 7:
@@ -242,9 +242,9 @@ public class AnalizadorLexico {
 								pts.peek().anadir(lexema, posId++);
 								token = new Token("ID", pts.peek().getPos(lexema));
 								esLet = false;
-							} else {
+							} /*else {
 								gestorErrores.producirError(6, linea, "");
-							}
+							}*/
 							// INPUT
 						} else if (esInput) {
 							if (!pts.peek().buscar(lexema) && !pts.elementAt(0).buscar(lexema)) {
@@ -265,7 +265,7 @@ public class AnalizadorLexico {
 							System.out.println(pts.elementAt(0).simbolos.get(11).getLexema());
 							System.out.println(lexema);
 ;							if (!pts.elementAt(0).buscar(lexema)) {
-								gestorErrores.producirError(5, linea, "");
+								/*gestorErrores.producirError(5, linea, "");*/
 							} else {
 								token = new Token("ID", pts.elementAt(0).getPos(lexema));
 							}
@@ -280,19 +280,19 @@ public class AnalizadorLexico {
 								String nombreTabla = "Tabla Funcion " + lexema;
 								pts.push(new TablaSimbolos(nombreTabla, numeroTabla++));
 								creaTabla = false;
-							} else {
+							} /*else {
 								gestorErrores.producirError(6, linea, "");
-							}
+							}*/
 							// SENTENCIAS
 						} else if (esSentencia) {
 							if (pts.peek().buscar(lexema)) {
 								token = new Token("ID", pts.peek().getPos(lexema));
 							} else if (pts.elementAt(0).buscar(lexema)) {
 								token = new Token("ID", pts.elementAt(0).getPos(lexema));
-							} else {
+							} /*else {
 								gestorErrores.producirError(1, linea, "");
 
-							}
+							}*/
 							esSentencia = false;
 							// PARAMETROS
 						} else if (parametros) {
@@ -346,9 +346,9 @@ public class AnalizadorLexico {
 					if (caracter == '&') {
 						estado = 15;
 						leer();
-					} else {
+					} /*else {
 						gestorErrores.producirError(8, linea, "");
-					}
+					}*/
 					break;
 				case 14:
 					if (caracter == '='){
@@ -429,7 +429,7 @@ public class AnalizadorLexico {
 			if (caracter == '\n')
 				linea++;
 		} catch (IOException e) {
-			gestorErrores.producirError(9, linea, "");
+			/*gestorErrores.producirError(9, linea, "");*/
 		}
 	}
 }
