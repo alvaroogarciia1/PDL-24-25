@@ -127,7 +127,7 @@ public class AnalizadorLexico {
 					if (caracter == 13 || caracter == 0 || caracter == 32 || caracter == 9 || caracter == '\n') { // delimitador
 						leer();
 					} else if (caracter == -1) {
-						token = new Token("EOF");
+						token = new Token("EOF", null);
 						genToken = true;
 					} else if (Character.isLetter(caracter)) {
 						estado = 8;
@@ -234,7 +234,7 @@ public class AnalizadorLexico {
 						if (lexema.equals("let")) {
 							esLet = true;
 						}
-						token = new Token(lexema.toUpperCase());
+						token = new Token(lexema.toUpperCase(), null);
 					} else {
 						// LET
 						if (esLet) {
@@ -335,11 +335,11 @@ public class AnalizadorLexico {
 					}
 					break;
 				case 11:
-					token = new Token("IGUIGU");
+					token = new Token("IGUIGU", null);
 					genToken = true;
 					break;
 				case 12:
-					token = new Token("IGUAL");
+					token = new Token("IGUAL", null);
 					genToken = true;
 					break;
 				case 13:
@@ -357,40 +357,40 @@ public class AnalizadorLexico {
 					}
 					break;
 				case 15:
-					token = new Token("AND");
+					token = new Token("AND", null);
 					genToken = true;
 					break;
 				case 16:
 					if (caracter == ';') {
-						token = new Token("PUNTYCOM");
+						token = new Token("PUNTYCOM", null);
 						genToken = true;
 					} else if (caracter == ',') {
-						token = new Token("COMA");
+						token = new Token("COMA", null);
 						genToken = true;
 					} else if (caracter == '(') {
-						token = new Token("PARENTABRE");
+						token = new Token("PARENTABRE", null);
 						genToken = true;
 					} else if (caracter == ')') {
-						token = new Token("PARENTCIERRA");
+						token = new Token("PARENTCIERRA", null);
 						genToken = true;
 					} else if (caracter == '{') {
-						token = new Token("CORCHABRE");
+						token = new Token("CORCHABRE", null);
 						genToken = true;
 					} else if (caracter == '}') {
-						token = new Token("CORCHCIERRA");
+						token = new Token("CORCHCIERRA", null);
 						genToken = true;
 					} else if (caracter == ':') {
-						token = new Token("DOSPUNTOS");
+						token = new Token("DOSPUNTOS", null);
 						genToken = true;
 					} else if (caracter == '+') {
-						token = new Token("SUMA");
+						token = new Token("SUMA", null);
 						genToken = true;
 					
 					}
 					leer();
 					break;
 				case 21:
-					token = new Token("ASIGMULT");
+					token = new Token("ASIGMULT", null);
 					genToken = true;
 					break;
 				default:

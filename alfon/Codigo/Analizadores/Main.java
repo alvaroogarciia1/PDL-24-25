@@ -17,7 +17,7 @@ public class Main {
         Token token;
         do {
             token = AL.leerToken();  // Leer un token
-        } while (!token.getIdentifier().equals("EOF"));  // Repetir hasta encontrar el token EOF
+        } while (!token.getCodigoToken().equals("EOF"));  // Repetir hasta encontrar el token EOF
 
         // Cerrar el archivo de tokens
         AL.cerrarArchivoTokens();
