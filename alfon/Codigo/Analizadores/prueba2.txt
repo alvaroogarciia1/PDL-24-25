@@ -1,5 +1,11 @@
 let number a;
 let number b;
+/*Hola 
+*esto 
+*es un 
+*comentario 
+*de 
+*bloque*********/
 let boolean bbb;
 a = 3;
 b = a;
